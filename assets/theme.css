@@ -54,3 +54,15 @@ h1,h2,h3,h4,h5,h6,.section-title,.nav-links,.btn,.chip,.strip-item,.hours-time,.
 .section-title,.advantages-head h2,.faq-head h2,.visit-copy h2,.social-copy h2{font-weight:600}
 footer{border-top:3px solid transparent;border-image:linear-gradient(90deg,var(--red),var(--orange),var(--yellow),var(--green),var(--blue),var(--purple)) 1}
 @media(max-width:768px){.brand-copy strong{font-size:24px}.hero-copy h1{font-weight:700}.hero-inline-logo-img{width:230px}}
+/* Make the official brand palette visible throughout the page. */
+header{border-bottom:4px solid transparent;border-image:linear-gradient(90deg,#ff5c5c,#ffaf40,#ffe14c,#66d37e,#40b3ff,#a56dff) 1}
+.hero-copy h1{color:#40b3ff;background:linear-gradient(105deg,#40b3ff 15%,#a56dff 58%,#ff5c5c 95%);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.hero-actions .btn-whatsapp{background:#ff5c5c;color:#1f1f1f}.hero-actions .btn-whatsapp:hover{background:#ff8585}.hero-actions .btn-outline{border-color:#ffe14c;color:#ffe14c}
+.hero-points .chip:nth-child(1){color:#66d37e}.hero-points .chip:nth-child(2){color:#ffe14c}.hero-points .chip:nth-child(3){color:#a56dff}
+.highlights{background:#1f1f1f;color:#fff}.highlights .section-title{color:#40b3ff}.highlights .kicker{color:#ffe14c}.highlights .section-copy{color:#ddd}
+.cat{background:#303030;color:#fff;border:1px solid color-mix(in srgb,var(--accent) 65%,transparent);border-top:5px solid var(--accent)}.cat h3{color:var(--accent)}.cat p,.cat small{color:#ddd}.cat-icon{background:#1f1f1f;border-color:var(--accent)}.cat:hover,.cat.active{background:color-mix(in srgb,var(--accent) 12%,#1f1f1f)}
+.selection{background:#303030;border:1px solid #a56dff}.selection h3{color:#66d37e}
+.advantages-head h2{color:#ffe14c}.advantage-card{border-bottom:4px solid #ffe14c}.advantage-card:nth-child(2){border-bottom-color:#40b3ff}.advantage-card:nth-child(3){border-bottom-color:#a56dff}.advantage-card:nth-child(4){border-bottom-color:#ffaf40}
+.about-store .kicker{color:#1f1f1f}.about-store .section-title{color:#1f1f1f}.about-stat:nth-child(1){border-left:5px solid #ff5c5c}.about-stat:nth-child(2){border-left:5px solid #ffaf40}.about-stat:nth-child(3){border-left:5px solid #66d37e}.about-stat:nth-child(4){border-left:5px solid #a56dff}
+.visit-card{border-top:5px solid #40b3ff}.brand-quote{border-top:3px solid #a56dff;border-bottom:3px solid #ffaf40}.google-review-inner h2{color:#ffe14c}.social-copy h2{color:#a56dff}.faq-item{border-left:4px solid #40b3ff}.faq-item:nth-child(2n){border-left-color:#66d37e}.faq-item:nth-child(3n){border-left-color:#a56dff}
+@media(forced-colors:active){.hero-copy h1{background:none;-webkit-text-fill-color:CanvasText;color:CanvasText}}
