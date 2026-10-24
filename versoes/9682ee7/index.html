@@ -1,0 +1,1320 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Conheça a Mundo Criativo em Santa Luzia, MG. Papelaria, presentes, roupas, brinquedos, eletrônicos, perfumaria, bijuterias, utilidades, novidades e promoções. Fale conosco pelo WhatsApp." name="description"/><meta content="index, follow" name="robots"/><meta content="BR-MG" name="geo.region"/><meta content="Santa Luzia" name="geo.placename"/><meta content="Mundo Criativo | Papelaria, Presentes e Utilidades em Santa Luzia - MG" property="og:title"/><meta content="Uma loja familiar em Santa Luzia, MG, com presentes, papelaria, roupas, brinquedos, perfumaria, bijuterias, produtos para o lar e muito mais." property="og:description"/><meta content="website" property="og:type"/><meta content="pt_BR" property="og:locale"/><meta content="summary_large_image" name="twitter:card"/>
+<title>Mundo Criativo | Papelaria, Presentes e Utilidades em Santa Luzia - MG</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Clicker+Script&amp;family=League+Spartan:wght@400;500;600;700;800&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<style>
+    :root{
+      --bg:#262626;
+      --bg-soft:#1f1f1f;
+      --panel:#303030;
+      --panel-2:#383838;
+      --panel-3:#101010;
+      --line:rgba(255,255,255,.09);
+      --text:#f5f5f5;
+      --muted:#c1c1c1;
+      --muted-2:#909090;
+      --shadow:0 24px 65px rgba(0,0,0,.28);
+      --radius-lg:34px;
+      --radius-md:24px;
+      --radius-sm:18px;
+      --yellow:#f2c300;
+      --green:#67c56f;
+      --blue:#48aaf2;
+      --purple:#9d6af0;
+      --red:#ff5b5b;
+      --orange:#f4a63a;
+    }
+
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--bg);color:var(--text);font-family:"League Spartan",system-ui,sans-serif;overflow-x:hidden}
+    img{max-width:100%;display:block}
+    a{color:inherit;text-decoration:none}
+    button{font:inherit}
+    .container{width:min(1180px,calc(100% - 36px));margin-inline:auto}
+    .script{font-family:"Clicker Script",cursive;font-weight:400}
+    .muted{color:var(--muted)}
+    .reveal{opacity:1;transform:none}
+    .motion-ready .reveal{opacity:0;transform:translateY(24px);transition:.7s ease}
+    .motion-ready .reveal.visible{opacity:1;transform:none}
+
+    body::before{
+      content:"";position:fixed;inset:0;pointer-events:none;
+      background:radial-gradient(circle at 10% 12%, rgba(72,170,242,.12), transparent 23%),
+                 radial-gradient(circle at 90% 8%, rgba(157,106,240,.11), transparent 19%),
+                 radial-gradient(circle at 85% 75%, rgba(103,197,111,.1), transparent 22%),
+                 linear-gradient(180deg, rgba(255,255,255,.015), transparent 25%);
+      z-index:-2;
+    }
+
+    header{position:sticky;top:0;z-index:40;background:rgba(38,38,38,.78);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+    .nav{display:flex;align-items:center;gap:24px;min-height:78px}
+    .brand{display:flex;align-items:center;gap:14px;min-width:max-content}
+    .brand img{width:56px;height:56px;object-fit:contain;filter:drop-shadow(0 8px 20px rgba(0,0,0,.18))}
+    .brand-copy strong{display:block;font-size:22px;letter-spacing:.02em}
+    .brand-copy span{display:block;color:var(--muted-2);font-size:12px;text-transform:uppercase;letter-spacing:.14em;margin-top:2px}
+    .nav-links{display:flex;align-items:center;gap:26px;margin-left:auto}
+    .nav-links a{font-weight:600;color:#dfdfdf;opacity:.88;transition:.2s}
+    .nav-links a:hover{opacity:1;color:#fff}
+    .nav-actions{display:flex;gap:10px;align-items:center}
+    .menu-btn{display:none;width:46px;height:46px;border:1px solid var(--line);border-radius:50%;background:var(--panel);color:var(--text);cursor:pointer}
+
+    .btn{border:0;border-radius:999px;padding:14px 20px;font-weight:700;display:inline-flex;align-items:center;gap:10px;cursor:pointer;transition:.22s;justify-content:center}
+    .btn:hover{transform:translateY(-2px)}
+    .btn-primary{background:#fff;color:#111}
+    .btn-outline{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.22)}
+    .btn-dark{background:var(--panel);color:#fff;border:1px solid var(--line)}
+    .btn-whatsapp{background:#25d366;color:#0d331c}
+
+    .hero{position:relative;padding:72px 0 44px;overflow:hidden}
+    .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:36px;align-items:center}
+    .hero-copy{padding:32px 0 20px;position:relative}
+    .eyebrow{display:inline-flex;align-items:center;gap:10px;padding:10px 14px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid var(--line);color:#e5e5e5;font-size:13px}
+    .eyebrow i{width:9px;height:9px;border-radius:50%;background:var(--green);box-shadow:0 0 14px var(--green)}
+    h1{font-size:clamp(54px,7vw,92px);line-height:.88;margin:20px 0 18px;letter-spacing:-.045em}
+    h1 .script{display:block;color:#fff;font-size:.84em;line-height:.85;margin-bottom:12px}
+    .hero-copy p{font-size:20px;line-height:1.55;color:#dddddd;max-width:650px;margin:0 0 28px}
+    .hero-actions{display:flex;gap:12px;flex-wrap:wrap}
+    .hero-points{display:flex;gap:14px;flex-wrap:wrap;margin-top:28px}
+    .chip{padding:10px 14px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid var(--line);color:#d7d7d7;font-size:14px;font-weight:600}
+
+    .hero-art{position:relative;min-height:620px;display:grid;place-items:center}
+    .showcase-card{position:relative;width:min(490px,100%);background:linear-gradient(180deg, rgba(255,255,255,.045), rgba(255,255,255,.02));border:1px solid rgba(255,255,255,.09);border-radius:42px;padding:30px;box-shadow:var(--shadow);overflow:hidden}
+    .showcase-card::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at top left, rgba(255,255,255,.07), transparent 35%)}
+    .showcase-top{display:flex;justify-content:space-between;align-items:center;gap:14px;margin-bottom:18px;position:relative;z-index:2}
+    .mini-tag{display:flex;align-items:center;gap:10px;padding:8px 12px;border-radius:999px;background:rgba(255,255,255,.06);border:1px solid var(--line);font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:#e7e7e7}
+    .mini-tag img{width:18px;height:18px;object-fit:contain}
+    .showcase-logo{position:relative;z-index:2;padding:18px;border-radius:30px;background:rgba(0,0,0,.24);border:1px solid rgba(255,255,255,.07)}
+    .showcase-logo img{width:min(100%,320px);margin-inline:auto;filter:drop-shadow(0 10px 30px rgba(0,0,0,.35))}
+    .showcase-bottom{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px;position:relative;z-index:2}
+    .mini-card{background:rgba(255,255,255,.05);border:1px solid var(--line);border-radius:22px;padding:16px;text-align:center}
+    .mini-card img{height:48px;margin:0 auto 12px;object-fit:contain}
+    .mini-card b{display:block;font-size:14px;margin-bottom:5px}
+    .mini-card span{display:block;font-size:12px;color:#c9c9c9;line-height:1.4}
+
+    .decor{position:absolute;pointer-events:none;user-select:none;opacity:.9}
+    .decor.d1{left:-18px;top:14px;width:110px;transform:rotate(-8deg)}
+    .decor.d2{right:-24px;top:62px;width:78px}
+    .decor.d3{left:-6px;bottom:30px;width:110px}
+    .decor.d4{right:10px;bottom:-10px;width:155px;opacity:.7}
+    .decor.d5{left:44%;top:-10px;width:120px;opacity:.55}
+
+    .category-strip{padding:12px 0 30px;overflow:hidden}
+    .strip-wrap{display:flex;overflow:auto;padding:0 0 6px}
+    .strip-wrap::-webkit-scrollbar{height:8px}
+    .strip-wrap::-webkit-scrollbar-thumb{background:#444;border-radius:999px}
+    .strip-wrap.marquee-ready{display:block;overflow:hidden;padding:0;border-radius:999px;background:rgba(255,255,255,.04);border:1px solid var(--line);mask-image:linear-gradient(90deg, transparent 0, #000 6%, #000 94%, transparent 100%);-webkit-mask-image:linear-gradient(90deg, transparent 0, #000 6%, #000 94%, transparent 100%)}
+    .strip-track{display:flex;align-items:center;gap:14px;flex-wrap:nowrap;width:max-content;animation:mcMarquee 30s linear infinite;will-change:transform;padding:10px 14px}
+    .strip-wrap.marquee-ready:hover .strip-track{animation-play-state:paused}
+    .strip-item{display:inline-flex;align-items:center;gap:10px;flex:0 0 auto;white-space:nowrap;min-width:max-content;padding:13px 18px;border-radius:999px;background:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,.08);cursor:pointer;transition:transform .22s ease,border-color .22s ease,background .22s ease,box-shadow .22s ease}
+    .strip-item:hover{transform:translateY(-2px);border-color:rgba(255,255,255,.22);background:rgba(255,255,255,.09);box-shadow:0 10px 24px rgba(0,0,0,.18)}
+    .strip-item img{width:26px;height:26px;object-fit:contain;flex:0 0 auto}
+    .strip-item span{font-weight:700;white-space:nowrap;flex:0 0 auto}
+    @keyframes mcMarquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+    section{padding:82px 0}
+    .section-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:34px}
+    .kicker{font-size:13px;text-transform:uppercase;letter-spacing:.16em;color:#d8d8d8;margin-bottom:10px}
+    .section-title{font-size:clamp(38px,5vw,66px);line-height:.96;letter-spacing:-.04em;margin:0}
+    .section-copy{max-width:500px;color:#d0d0d0;font-size:18px;line-height:1.6;margin:0}
+
+    .highlights{background:linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,.01));border-block:1px solid var(--line)}
+    .highlight-layout{display:grid;grid-template-columns:1.25fr .75fr;gap:24px;align-items:start}
+    .category-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .cat{background:var(--panel);border:1px solid var(--line);border-radius:28px;padding:20px;min-height:238px;display:flex;flex-direction:column;justify-content:space-between;position:relative;cursor:pointer;transition:.26s;overflow:hidden}
+    .cat::before{content:"";position:absolute;inset:auto -34px -34px auto;width:120px;height:120px;border-radius:50%;background:color-mix(in srgb, var(--accent) 16%, transparent)}
+    .cat:hover,.cat.active{transform:translateY(-5px);border-color:color-mix(in srgb, var(--accent) 65%, white 10%);box-shadow:0 20px 45px rgba(0,0,0,.18)}
+    .cat-top{display:flex;justify-content:space-between;align-items:start;gap:14px}
+    .cat-icon{width:88px;height:88px;border-radius:22px;background:rgba(255,255,255,.035);border:1px solid color-mix(in srgb, var(--accent) 45%, rgba(255,255,255,.08));display:grid;place-items:center}
+    .cat-icon img{max-width:62px;max-height:62px;object-fit:contain}
+    .cat small{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:#d4d4d4}
+    .cat h3{font-size:25px;margin:8px 0 8px}
+    .cat p{margin:0;color:#cbcbcb;line-height:1.45;font-size:15px;max-width:92%}
+
+    .selection{position:sticky;top:100px;background:linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.03));border:1px solid var(--line);border-radius:32px;padding:28px;min-height:520px;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden}
+    .selection::after{content:"";position:absolute;right:-46px;bottom:-48px;width:170px;height:170px;border-radius:50%;background:color-mix(in srgb, var(--sel, var(--red)) 16%, transparent)}
+    .selection .script{font-size:54px;color:#fff}
+    .selection-head{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-bottom:16px;position:relative;z-index:2}
+    .selection-icon-wrap{position:relative;width:122px;height:108px;display:grid;place-items:center;flex:0 0 auto}
+    .selection-head img{width:90px;height:90px;object-fit:contain;filter:drop-shadow(0 10px 22px rgba(0,0,0,.25));transform-origin:50% 88%;position:relative;z-index:2}
+    .selection-head img.icon-jump{animation:selIconJump .72s cubic-bezier(.22,.9,.28,1)}
+    @keyframes selIconJump{0%{transform:translateY(0) scale(1) rotate(0deg)}18%{transform:translateY(-6px) scale(1.03) rotate(-4deg)}42%{transform:translateY(-18px) scale(1.07) rotate(6deg)}62%{transform:translateY(0) scale(.98) rotate(-2deg)}78%{transform:translateY(-7px) scale(1.02) rotate(2deg)}100%{transform:translateY(0) scale(1) rotate(0deg)}}
+    .selection h3{font-size:42px;line-height:.95;margin:8px 0 14px;position:relative;z-index:2}
+    .selection p{font-size:17px;line-height:1.6;color:#e0e0e0;position:relative;z-index:2}
+    .selection-list{margin:18px 0 0;padding:0;list-style:none;display:grid;gap:10px;position:relative;z-index:2}
+    .selection-list li{display:flex;gap:10px;align-items:flex-start;color:#d6d6d6}
+    .selection-list li::before{content:"•";color:var(--sel, var(--red));font-size:24px;line-height:1;margin-top:-3px}
+    .selection-cta{display:grid;gap:12px;position:relative;z-index:2}
+
+    .experience-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+    .exp-card{background:var(--panel);border:1px solid var(--line);border-radius:32px;padding:30px;position:relative;overflow:hidden}
+    .exp-card h3{font-size:34px;line-height:1;margin:0 0 14px;letter-spacing:-.03em}
+    .exp-card p{margin:0;color:#d2d2d2;line-height:1.65;font-size:17px}
+    .exp-list{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:24px}
+    .exp-item{background:rgba(255,255,255,.04);border:1px solid var(--line);border-radius:18px;padding:14px 15px;font-weight:700;color:#f1f1f1}
+    .contact-box{display:grid;gap:16px}
+    .contact-line{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 18px;border-radius:18px;background:rgba(255,255,255,.04);border:1px solid var(--line)}
+    .contact-line small{display:block;color:#ababab;text-transform:uppercase;letter-spacing:.12em;margin-bottom:4px}
+    .contact-line b{font-size:20px}
+    .brand-watermark{position:absolute;right:-18px;bottom:-18px;width:180px;opacity:.08}
+
+    .reviews{background:linear-gradient(180deg, rgba(0,0,0,.12), rgba(255,255,255,.015))}
+    .review-wrap{display:grid;grid-template-columns:.65fr 1.35fr;gap:24px;align-items:center}
+    .review-score{background:var(--panel);border:1px solid var(--line);border-radius:32px;padding:28px}
+    .review-score .score{font-size:80px;line-height:.9;font-weight:800}
+    .review-score .stars{color:var(--yellow);letter-spacing:4px;font-size:24px;margin:10px 0 18px}
+    .review-score p{margin:0;color:#d2d2d2;line-height:1.6}
+    .review-card{background:var(--panel);border:1px solid var(--line);border-radius:32px;padding:34px;box-shadow:var(--shadow)}
+    .review-card blockquote{margin:0 0 28px;font-size:28px;line-height:1.35;letter-spacing:-.02em}
+    .review-meta{display:flex;justify-content:space-between;align-items:center;gap:18px}
+    .review-meta span{color:#b8b8b8}
+    .review-controls{display:flex;gap:10px}
+    .circle-btn{width:46px;height:46px;border-radius:50%;border:1px solid var(--line);background:rgba(255,255,255,.04);color:#fff;cursor:pointer}
+
+    .social-card{display:grid;grid-template-columns:1.12fr .88fr;gap:24px;background:linear-gradient(135deg, rgba(255,255,255,.055), rgba(255,255,255,.022));border:1px solid var(--line);border-radius:36px;padding:34px;position:relative;overflow:hidden}
+    .social-card::before{content:"";position:absolute;right:-30px;top:-30px;width:180px;height:180px;border-radius:50%;background:rgba(157,106,240,.18)}
+    .social-copy h2{font-size:clamp(38px,5vw,58px);line-height:.95;letter-spacing:-.04em;margin:0 0 14px}
+    .social-copy p{font-size:18px;line-height:1.6;color:#dadada;margin:0 0 24px}
+    .social-visual{position:relative;min-height:280px;display:grid;place-items:center}
+    .social-visual .logo-wrap{width:min(320px,100%);padding:20px;border-radius:28px;background:rgba(255,255,255,.04);border:1px solid var(--line)}
+    .social-visual .logo-wrap img{width:100%;height:auto}
+footer{padding:34px 0 38px;border-top:1px solid var(--line);background:#202020}
+    .footer-grid{display:grid;grid-template-columns:1.1fr .55fr .65fr;gap:26px}
+    .footer-brand{display:flex;gap:16px;align-items:flex-start}
+    .footer-brand img{width:70px;flex:0 0 auto}
+    .footer-brand p{margin:8px 0 0;color:#bdbdbd;line-height:1.6}
+    .footer-col h4{margin:4px 0 14px;font-size:18px}
+    .footer-col a{display:block;color:#c4c4c4;margin:10px 0}
+    .footer-col a:hover{color:#fff}
+    .copyright{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-top:26px;padding-top:18px;border-top:1px solid rgba(255,255,255,.06);color:#8b8b8b;font-size:14px}
+
+    .floating-social{position:fixed;right:16px;bottom:16px;display:flex;flex-direction:column;gap:10px;z-index:50}
+    .social-fab{width:56px;height:56px;border-radius:50%;display:grid;place-items:center;border:1px solid rgba(255,255,255,.4);box-shadow:0 18px 35px rgba(0,0,0,.25);font-weight:800;position:relative;isolation:isolate}
+    .social-fab::before{content:"";position:absolute;inset:-2px;border-radius:inherit;z-index:-1;pointer-events:none;transform:scale(1);opacity:.7;animation:socialPulse 2.35s ease-out infinite}
+    .social-fab.wa{background:#25d366;color:#10331d}
+    .social-fab.wa::before{border:2px solid rgba(37,211,102,.72);box-shadow:0 0 18px rgba(37,211,102,.32)}
+    .social-fab.ig{background:linear-gradient(145deg,#7b2cff,#ff3f72,#ffbd2e);color:#fff}
+    .social-fab.ig::before{border:2px solid rgba(214,36,159,.72);box-shadow:0 0 18px rgba(123,44,255,.28);animation-delay:1.15s}
+    .social-fab:hover::before,.social-fab:focus-visible::before{animation-duration:1.45s}
+    @keyframes socialPulse{0%{transform:scale(.98);opacity:.72}55%{opacity:.22}100%{transform:scale(1.48);opacity:0}}
+
+    .toast{position:fixed;left:50%;bottom:22px;transform:translate(-50%,140px);background:#fff;color:#111;padding:14px 18px;border-radius:14px;box-shadow:0 16px 36px rgba(0,0,0,.26);opacity:0;transition:.35s;z-index:120;max-width:calc(100% - 38px);text-align:center}
+    .toast.show{opacity:1;transform:translate(-50%,0)}
+
+    @media(max-width:980px){
+      .nav-links{display:none;position:absolute;left:18px;right:18px;top:72px;flex-direction:column;align-items:stretch;background:#2f2f2f;border:1px solid var(--line);padding:18px;border-radius:22px;box-shadow:var(--shadow)}
+      .nav-links.open{display:flex}
+      .menu-btn{display:grid;place-items:center}
+      .hero-grid,.highlight-layout,.experience-grid,.review-wrap,.social-card{grid-template-columns:1fr}
+      .category-grid{grid-template-columns:repeat(2,1fr)}
+      .selection{position:relative;top:0;min-height:auto}
+      .footer-grid{grid-template-columns:1fr 1fr}
+      .footer-brand{grid-column:1/-1}
+      .social-visual{min-height:220px}
+    }
+
+    @media(max-width:620px){
+      .container{width:min(100% - 22px,1180px)}
+      .nav{min-height:72px}
+      .brand img{width:48px;height:48px}
+      .brand-copy strong{font-size:19px}
+      .brand-copy span{font-size:10px}
+      .nav-actions .btn-dark{display:none}
+      h1{font-size:58px}
+      .hero-copy p,.section-copy,.social-copy p{font-size:17px}
+      .hero-art{min-height:470px}
+      .showcase-card{padding:20px;border-radius:30px}
+      .showcase-bottom{grid-template-columns:1fr}
+      .decor.d1{width:90px}.decor.d2{width:64px}.decor.d3{width:96px}.decor.d4{width:120px}.decor.d5{width:88px}
+      .category-grid{grid-template-columns:1fr}
+      .cat{min-height:205px}
+      .selection-icon-wrap{width:102px;height:92px}.selection-head img{width:74px;height:74px}
+      .selection h3{font-size:34px}
+      .exp-list{grid-template-columns:1fr}
+      .review-card blockquote{font-size:23px}
+      .footer-grid{grid-template-columns:1fr}
+      .footer-brand{grid-column:auto}
+      .floating-social{right:12px;bottom:12px}
+      .social-fab{width:50px;height:50px}
+      section{padding:72px 0}
+    }
+  
+
+    /* =============================================================
+       AJUSTES APROVADOS — IDENTIDADE, SEÇÕES CLARAS E SEO VISUAL
+       Bege oficial da marca: #FAF5EC
+    ============================================================= */
+    :root{--beige:#FAF5EC;--beige-soft:#f6efe4;--graphite:#262626;--graphite-deep:#1d1d1d}
+
+    /* Categorias: cards claros sobre fundo grafite */
+    .highlights{background:var(--graphite);color:var(--text)}
+    .highlights .section-copy{color:#d7d7d7}
+    .cat{background:var(--beige);color:#272727;border-color:rgba(255,255,255,.08)}
+    .cat small{color:#6b665f}
+    .cat p{color:#625e58}
+    .cat-icon{background:#222;border-color:rgba(255,255,255,.10);box-shadow:inset 0 0 0 1px rgba(255,255,255,.02)}
+    .selection{background:var(--beige);color:#252525;border-color:rgba(255,255,255,.08)}
+    .selection p{color:#625e58}
+    .selection-list li{color:#56514c}
+    .selection .btn-outline{color:#262626;border-color:rgba(38,38,38,.22)}
+    .selection .script{color:#252525}
+
+    /* Sobre a loja */
+    .about-store{background:var(--beige);color:#262626;position:relative;overflow:hidden}
+    .about-store .kicker{color:#5d5851}
+    .about-store .section-copy{color:#5f5a54}
+    .about-watermark{position:absolute;width:520px;right:-155px;bottom:-190px;opacity:.045;pointer-events:none}
+    .about-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:34px;align-items:stretch;position:relative;z-index:2}
+    .about-copy{padding:26px 0;display:flex;flex-direction:column;justify-content:center}
+    .about-copy .section-title{margin-bottom:22px}
+    .about-copy p{font-size:18px;line-height:1.65;color:#504c47;margin:0 0 16px}
+    .about-copy strong{color:#242424}
+    .about-stats{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:18px 0 26px}
+    .about-stat{padding:15px 16px;border:1px solid rgba(38,38,38,.11);background:rgba(255,255,255,.38);border-radius:18px;font-weight:700;color:#2d2b28}
+    .about-actions{display:flex;gap:12px;flex-wrap:wrap}
+    .about-actions .btn-dark{background:#262626;color:#fff}
+    .store-photo-card{position:relative;border-radius:34px;overflow:hidden;min-height:620px;background:#222;box-shadow:0 24px 60px rgba(37,34,30,.18)}
+    .store-photo-card::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(250,245,236,.18),transparent 36%),linear-gradient(0deg,rgba(22,22,22,.22),transparent 40%);pointer-events:none}
+    .store-photo-card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 70%;filter:saturate(.94) contrast(.99);opacity:.96}
+    .store-badge{position:absolute;z-index:3;left:20px;bottom:20px;padding:12px 15px;border-radius:16px;background:rgba(29,29,29,.86);color:var(--beige);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.12)}
+    .store-badge small{display:block;text-transform:uppercase;letter-spacing:.13em;color:#bbb;margin-bottom:3px}
+    .store-badge b{font-size:18px}
+
+
+    /* Horário de funcionamento / localização */
+    .visit-section{background:#202020;color:var(--text);padding:66px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+    .visit-shell{display:grid;grid-template-columns:1.05fr .95fr;gap:22px;align-items:stretch}
+    .visit-copy,.visit-card{border:1px solid var(--line);border-radius:30px;background:rgba(255,255,255,.035);padding:30px}
+    .visit-copy{display:flex;flex-direction:column;justify-content:center}
+    .visit-copy .kicker{color:#b9b5ae}
+    .visit-copy h2{font-size:clamp(38px,4.7vw,58px);line-height:.96;letter-spacing:-.04em;margin:8px 0 16px}
+    .visit-copy p{font-size:17px;line-height:1.6;color:#d3d0cb;margin:0 0 24px;max-width:620px}
+    .visit-actions{display:flex;gap:12px;flex-wrap:wrap}
+    .btn-map{background:var(--beige);color:#242424;border:1px solid rgba(255,255,255,.16)}
+    .btn-map:hover{background:#fff}
+    .map-pin-icon{width:20px;height:20px;display:inline-grid;place-items:center;flex:0 0 auto}
+    .map-pin-icon svg{width:100%;height:100%;display:block}
+    .visit-card{background:var(--beige);color:#262626;display:grid;gap:14px}
+    .visit-card-head{display:flex;align-items:center;gap:12px;margin-bottom:4px}
+    .visit-icon{width:42px;height:42px;border-radius:14px;background:#242424;color:var(--beige);display:grid;place-items:center;flex:0 0 auto}
+    .visit-icon svg{width:23px;height:23px}
+    .visit-card-head div{display:grid;gap:2px}
+    .visit-card-head small{text-transform:uppercase;letter-spacing:.13em;color:#766f67;font-size:11px;font-weight:700}
+    .visit-card-head strong{font-size:24px;line-height:1.05}
+    .hours-row{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:17px 0;border-top:1px solid rgba(38,38,38,.11)}
+    .hours-row:first-of-type{border-top:0}
+    .hours-day{font-weight:700;color:#383430}
+    .hours-time{font-size:21px;font-weight:800;color:#242424;white-space:nowrap}
+    .visit-note{margin-top:4px;padding-top:14px;border-top:1px solid rgba(38,38,38,.11);font-size:13px;line-height:1.5;color:#756f68}
+
+    /* Faixa com a fachada e a frase da marca */
+    .brand-quote{position:relative;min-height:280px;display:grid;place-items:center;overflow:hidden;background:#1d1d1d}
+    .brand-quote-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 79%;opacity:.28;filter:saturate(.85) blur(.2px)}
+    .brand-quote::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(29,29,29,.92),rgba(29,29,29,.52),rgba(29,29,29,.92))}
+    .brand-quote-inner{position:relative;z-index:2;text-align:center;padding:56px 20px;max-width:920px}
+    .brand-quote-inner p{font-size:clamp(34px,5vw,62px);line-height:1.02;letter-spacing:-.035em;margin:0;color:var(--beige);font-weight:700}
+    .brand-quote-inner span{display:block;margin-top:14px;color:#d3d0cb;text-transform:uppercase;letter-spacing:.13em;font-size:12px}
+
+    /* Convite de avaliação Google */
+    .google-review-band{background:var(--beige);color:#262626;padding:54px 0}
+    .google-review-inner{display:flex;justify-content:space-between;align-items:center;gap:28px;padding:28px 32px;border:1px solid rgba(38,38,38,.1);border-radius:28px;background:rgba(255,255,255,.36)}
+    .google-review-inner h2{font-size:32px;line-height:1;margin:0 0 8px}
+    .google-review-inner p{margin:0;color:#625e58;font-size:17px;line-height:1.5}
+    .btn-google{background:#262626;color:var(--beige);white-space:nowrap}
+
+    /* Avaliações: sem nota fictícia, com convite real para o Google */
+    .reviews{background:#242424}
+    .review-wrap{grid-template-columns:.75fr 1.25fr}
+    .review-score{background:transparent;border:0;padding:0}
+    .review-score .stars{margin:0 0 16px}
+    .review-score h2{font-size:46px;line-height:.96;margin:0 0 16px}
+    .review-score p{font-size:17px}
+    .review-card{background:var(--beige);color:#262626;border-color:transparent;min-height:320px;display:flex;flex-direction:column;justify-content:space-between}
+    .review-card .review-label{display:inline-flex;align-items:center;gap:8px;font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:#6b665f;margin-bottom:18px}
+    .review-card h3{font-size:36px;line-height:1;margin:0 0 14px}
+    .review-card p{font-size:18px;line-height:1.6;color:#5b5751;margin:0 0 24px}
+    .review-actions{display:flex;gap:10px;flex-wrap:wrap}
+
+    /* Instagram com foto + logo integrada */
+    .social-card{background:linear-gradient(135deg,rgba(255,255,255,.055),rgba(255,255,255,.018));padding:38px}
+    .social-copy .kicker{color:#d7d7d7}
+    .social-visual{min-height:350px}
+    .social-collage{position:relative;width:min(440px,100%);height:340px}
+    .social-store-photo{position:absolute;inset:18px 38px 18px 0;width:70%;height:90%;object-fit:cover;object-position:center 70%;border-radius:28px;opacity:.7;filter:saturate(.78) contrast(.95);border:1px solid rgba(255,255,255,.08)}
+    .social-logo-card{position:absolute;right:0;bottom:0;width:58%;padding:18px;border-radius:26px;background:rgba(18,18,18,.9);border:1px solid rgba(255,255,255,.09);box-shadow:0 24px 50px rgba(0,0,0,.28)}
+    .social-logo-card img{width:100%}
+
+    /* Rodapé institucional */
+    footer{position:relative;overflow:hidden;background:var(--graphite-deep)}
+    .footer-watermark{position:absolute;width:500px;right:-170px;bottom:-230px;opacity:.035;pointer-events:none}
+    .footer-grid{position:relative;z-index:2;grid-template-columns:1.25fr .55fr .7fr}
+    .footer-brand p{color:#c8c5c0}
+    .footer-tagline{margin-top:12px;color:var(--beige);font-size:19px}
+    .footer-col h4{color:var(--beige)}
+    .footer-col a,.footer-col span{display:block;color:#c8c5c0;margin:10px 0}
+    .footer-col a:hover{color:#fff}
+
+    @media(max-width:980px){
+      .about-grid{grid-template-columns:1fr}
+      .store-photo-card{min-height:560px}
+      .google-review-inner{align-items:flex-start;flex-direction:column}
+      .review-wrap{grid-template-columns:1fr}
+    }
+    @media(max-width:620px){
+      .store-photo-card img{object-position:center 74%}
+      .about-stats{grid-template-columns:1fr}
+      .store-photo-card{min-height:500px}
+      .about-actions .btn{width:100%}
+      .brand-quote{min-height:235px}
+      .google-review-inner{padding:24px 20px}
+      .btn-google{width:100%}
+      .social-card{padding:28px 22px}
+      .social-collage{height:300px}
+    }
+
+
+/* =============================================================
+   RESPONSIVIDADE APRIMORADA — MOBILE E DESKTOP
+   Ajustes extras para celular, tablet e PC
+============================================================= */
+@media (max-width: 1024px){
+  .container{width:min(100% - 28px,1180px)}
+  .hero-grid,.highlight-layout,.about-grid,.review-wrap,.social-card{grid-template-columns:1fr}
+  .hero-art{min-height:520px}
+  .showcase-card{width:min(560px,100%)}
+  .highlight-layout{gap:18px}
+  .selection{position:relative;top:0}
+  .about-copy{padding:6px 0 0}
+  .store-photo-card{min-height:540px}
+  .social-visual{min-height:320px}
+  .footer-grid{grid-template-columns:1fr 1fr}
+  .footer-brand{grid-column:1/-1}
+}
+
+@media (max-width: 768px){
+  header{background:rgba(38,38,38,.92)}
+  .nav{gap:14px;min-height:70px}
+  .nav-links{top:70px}
+  .nav-actions{margin-left:auto}
+  .nav-actions .btn{padding:12px 14px;font-size:14px}
+  .hero{padding:46px 0 26px}
+  .hero-copy{padding:4px 0 0}
+  h1{font-size:clamp(42px,14vw,58px);line-height:.9}
+  .hero-copy p,.section-copy,.about-copy p,.review-card p,.social-copy p,.google-review-inner p{font-size:16px;line-height:1.55}
+  .eyebrow{font-size:12px;padding:9px 12px}
+  .hero-actions,.about-actions,.review-actions{display:grid;grid-template-columns:1fr;gap:10px}
+  .hero-actions .btn,.about-actions .btn,.review-actions .btn,.google-review-inner .btn,.social-copy .btn{width:100%}
+  .hero-points{display:grid;grid-template-columns:1fr;gap:10px}
+  .chip{justify-content:center}
+  .hero-art{min-height:auto}
+  .showcase-card{border-radius:28px;padding:18px}
+  .showcase-top{flex-direction:column;align-items:flex-start}
+  .showcase-logo{padding:14px}
+  .showcase-bottom{grid-template-columns:1fr}
+  .mini-card{padding:14px}
+  .category-strip{padding:6px 0 18px}
+  .strip-item{padding:10px 14px}
+  .strip-track{animation-duration:24s;padding:9px 10px}
+  .google-stars-row{gap:12px;flex-wrap:wrap}
+  .section-head{align-items:flex-start;flex-direction:column;gap:14px;margin-bottom:24px}
+  .category-grid,.about-stats,.exp-list{grid-template-columns:1fr}
+  .cat{min-height:auto;padding:20px}
+  .cat-icon{width:76px;height:76px}
+  .selection{padding:22px;border-radius:24px}
+  .selection-head{align-items:flex-start}
+  .selection-icon-wrap{width:94px;height:86px}.selection-head img{width:68px;height:68px}
+  .selection h3{font-size:30px}
+  .selection .script{font-size:42px}
+  .google-review-band{padding:40px 0}
+  .google-review-inner{padding:22px 18px;border-radius:22px}
+  .review-score h2{font-size:36px}
+  .review-card{padding:22px;border-radius:24px;min-height:auto}
+  .review-card h3{font-size:30px}
+  .about-watermark,.footer-watermark{display:none}
+  .store-photo-card{min-height:430px;border-radius:26px}
+  .store-photo-card img{object-position:center 68%}
+  .store-badge{left:14px;right:14px;bottom:14px}
+  .brand-quote{min-height:210px}
+  .brand-quote-bg{object-position:center 76%}
+  .brand-quote-inner{padding:38px 18px}
+  .brand-quote-inner p{font-size:clamp(28px,9vw,42px)}
+  .social-card{padding:24px 18px;border-radius:26px}
+  .social-visual{min-height:auto}
+  .social-collage{width:100%;height:255px}
+  .social-store-photo{inset:12px 28px 12px 0;width:72%;height:90%;border-radius:22px}
+  .social-logo-card{width:58%;padding:14px;border-radius:20px}
+  footer{padding-bottom:88px}
+  .footer-grid{grid-template-columns:1fr}
+  .footer-brand{grid-column:auto}
+  .copyright{flex-direction:column;align-items:flex-start}
+  .floating-social{right:12px;bottom:12px}
+  .social-fab{width:48px;height:48px}
+}
+
+@media (max-width: 480px){
+  .container{width:min(100% - 18px,1180px)}
+  .brand img{width:44px;height:44px}
+  .brand-copy strong{font-size:18px}
+  .brand-copy span{display:none}
+  .nav-links{left:10px;right:10px;top:66px;padding:14px;border-radius:18px}
+  .nav-actions .btn-dark{display:none}
+  .btn{padding:13px 16px}
+  h1{font-size:40px}
+  .section-title{font-size:34px}
+  .hero-copy p,.section-copy,.about-copy p,.review-card p,.social-copy p,.google-review-inner p{font-size:15px}
+  .hero-points .chip{font-size:13px}
+  .showcase-card{padding:16px}
+  .mini-tag{font-size:11px}
+  .cat-icon{width:70px;height:70px}
+  .selection .script{font-size:36px}
+  .selection h3{font-size:28px}
+  .store-photo-card{min-height:360px}
+  .store-photo-card img{object-position:center 66%}
+  .brand-quote-inner p{font-size:32px}
+  .social-collage{height:220px}
+}
+
+@media (min-width: 1200px){
+  .container{width:min(1240px,calc(100% - 64px))}
+  section{padding:96px 0}
+  .hero{padding:86px 0 52px}
+  .hero-grid{grid-template-columns:minmax(0,1.02fr) minmax(460px,.98fr);gap:54px}
+  .showcase-card{width:min(520px,100%)}
+  .highlight-layout{grid-template-columns:minmax(0,1.16fr) minmax(360px,.84fr);gap:28px}
+  .category-grid{grid-template-columns:repeat(3,1fr)}
+  .about-grid{grid-template-columns:1.02fr .98fr;gap:42px}
+  .store-photo-card{min-height:660px}
+  .review-wrap{grid-template-columns:.82fr 1.18fr}
+  .social-card{grid-template-columns:1.08fr .92fr;align-items:center}
+}
+
+
+    /* Avaliações reais em cards horizontais */
+    .reviews{background:#242424}
+    .reviews-intro{max-width:860px;margin:0 auto 34px;text-align:center}
+    .reviews-intro .kicker{margin-top:12px}
+    .reviews-intro h2{font-size:clamp(36px,5vw,62px);line-height:.96;letter-spacing:-.04em;margin:10px 0 16px}
+    .reviews-intro p{font-size:18px;line-height:1.6;color:#d2d2d2;margin:0 auto;max-width:760px}
+    .google-stars{display:inline-flex;align-items:center;gap:4px;color:#F4B400 !important;letter-spacing:.05em;line-height:1;text-shadow:0 2px 8px rgba(244,180,0,.14)}
+    .google-stars-large{justify-content:center;font-size:27px}
+    .reviews-carousel{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(330px,1fr);gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;padding:6px 2px 16px;scrollbar-width:thin;scrollbar-color:#555 transparent}
+    .reviews-carousel::-webkit-scrollbar{height:8px}
+    .reviews-carousel::-webkit-scrollbar-thumb{background:#555;border-radius:999px}
+    .testimonial-card{scroll-snap-align:start;background:var(--beige);color:#262626;border-radius:28px;padding:24px;min-height:310px;box-shadow:0 18px 42px rgba(0,0,0,.18);display:flex;flex-direction:column}
+    .testimonial-head{display:flex;align-items:center;gap:14px;margin-bottom:18px}
+    .review-avatar{width:48px;height:48px;border-radius:50%;display:grid;place-items:center;color:#fff;font-size:22px;font-weight:700;flex:0 0 auto;box-shadow:inset 0 0 0 1px rgba(255,255,255,.25)}
+    .avatar-j{background:#5c6bc0}.avatar-r{background:#512da8}.avatar-l{background:#c43b11}
+    .testimonial-head h3{margin:0 0 7px;font-size:20px;line-height:1.12;color:#202020}
+    .testimonial-meta{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:14px;color:#6d6964}
+    .testimonial-meta .google-stars{font-size:17px;letter-spacing:.03em;color:#F4B400 !important}
+    .testimonial-text{font-size:19px!important;line-height:1.55!important;color:#34312e!important;margin:6px 0 20px!important}
+    .reviews-footer{margin-top:24px;padding:24px 26px;border-radius:26px;background:rgba(255,255,255,.045);border:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:22px}
+    .reviews-footer>div:first-child{display:grid;gap:5px}.reviews-footer strong{font-size:22px}.reviews-footer span{color:#d2d2d2}
+    .brand-mark{width:20px;height:20px;display:inline-grid;place-items:center;flex:0 0 auto}.brand-mark svg{width:100%;height:100%;display:block}
+    .brand-mark-wa{color:#fff;width:22px;height:22px}.brand-mark-wa svg{width:100%;height:100%;display:block}.brand-mark-ig{width:23px;height:23px;padding:2px;border-radius:7px;background:radial-gradient(circle at 32% 106%,#fdf497 0 10%,#fd5949 40%,#d6249f 60%,#285AEB 90%)}
+    .social-fab .brand-mark{width:28px;height:28px}.social-fab .brand-mark-ig{background:transparent;padding:0}
+    @media(max-width:768px){.reviews-intro{text-align:left;margin-bottom:24px}.google-stars-large{justify-content:flex-start}.reviews-carousel{grid-auto-columns:84%;gap:14px;margin-right:-18px;padding-right:18px}.testimonial-card{min-height:300px;padding:22px}.reviews-footer{align-items:flex-start;flex-direction:column;padding:22px 18px}.reviews-footer .review-actions{width:100%}.reviews-footer .btn{width:100%}}
+    @media(max-width:480px){.reviews-carousel{grid-auto-columns:91%}.testimonial-head h3{font-size:18px}.testimonial-text{font-size:18px!important}}
+
+
+
+    /* =============================================================
+       OTIMIZAÇÃO DE ROLAGEM E PERFORMANCE
+    ============================================================= */
+    html{scroll-padding-top:92px;-webkit-text-size-adjust:100%}
+    body{overscroll-behavior-x:none}
+    section[id]{scroll-margin-top:92px}
+
+    /* Marquee em uma faixa única, acelerado por GPU */
+    .strip-wrap.marquee-ready{
+      -webkit-overflow-scrolling:touch;
+      touch-action:pan-y;
+      contain:layout paint;
+    }
+    .strip-track{
+      display:flex;
+      align-items:center;
+      flex-wrap:nowrap;
+      gap:0;
+      width:max-content;
+      padding:0;
+      animation:mcMarquee 34s linear infinite;
+      will-change:transform;
+      transform:translate3d(0,0,0);
+      backface-visibility:hidden;
+      -webkit-backface-visibility:hidden;
+    }
+    .strip-set{
+      display:flex;
+      align-items:center;
+      flex:0 0 auto;
+      gap:14px;
+      padding:10px 7px;
+    }
+    @keyframes mcMarquee{
+      from{transform:translate3d(0,0,0)}
+      to{transform:translate3d(-50%,0,0)}
+    }
+
+    /* Scroll horizontal das avaliações mais natural no iPhone */
+    .reviews-carousel{
+      -webkit-overflow-scrolling:touch;
+      overscroll-behavior-inline:contain;
+      touch-action:pan-x;
+      scroll-behavior:smooth;
+      scroll-padding-inline:2px;
+    }
+    .testimonial-card{contain:content}
+
+    /* Estrelas sempre no amarelo Google */
+    .google-stars,.google-stars span{color:#F4B400 !important}
+
+    /* Menos trabalho gráfico em telas menores */
+    @media(max-width:768px){
+      html{scroll-padding-top:78px}
+      section[id]{scroll-margin-top:78px}
+      header{backdrop-filter:none;-webkit-backdrop-filter:none;background:rgba(38,38,38,.97)}
+      body::before{position:absolute;background:linear-gradient(180deg,rgba(255,255,255,.012),transparent 24%)}
+      .motion-ready .reveal{opacity:1!important;transform:none!important;transition:none!important}
+      .strip-track{animation-duration:28s}
+      .strip-set{gap:10px;padding:9px 5px}
+      .reviews-carousel{scrollbar-width:none}
+      .reviews-carousel::-webkit-scrollbar{display:none}
+    }
+
+    @media(prefers-reduced-motion:reduce){
+      html{scroll-behavior:auto}
+      .motion-ready .reveal{opacity:1!important;transform:none!important;transition:none!important}
+      .strip-track{animation-duration:70s}
+      .btn,.cat,.strip-item{transition:none!important}
+    }
+
+
+    @media(max-width:768px){
+      .visit-section{padding:50px 0}
+      .visit-shell{grid-template-columns:1fr;gap:14px}
+      .visit-copy,.visit-card{padding:22px 18px;border-radius:24px}
+      .visit-copy h2{font-size:36px}
+      .visit-actions{display:grid;grid-template-columns:1fr}
+      .visit-actions .btn{width:100%}
+      .hours-row{padding:15px 0}
+      .hours-time{font-size:19px}
+    }
+    @media(max-width:480px){
+      .visit-copy h2{font-size:32px}
+      .visit-card-head strong{font-size:22px}
+      .hours-row{align-items:flex-start;flex-direction:column;gap:5px}
+    }
+
+
+    @media (prefers-reduced-motion: reduce){.social-fab::before{animation:none;opacity:0}.selection-head img.icon-jump{animation:none}}
+
+    /* HERO COM LOGO PROTAGONISTA */
+    .hero-brand-stage{position:relative;width:min(560px,100%);min-height:520px;display:grid;place-items:center}
+    .hero-brand-glow{position:absolute;width:78%;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,rgba(130,68,154,.20) 0%,rgba(130,68,154,.08) 38%,transparent 70%);filter:blur(10px);pointer-events:none}
+    .hero-brand-logo{position:relative;z-index:2;width:min(500px,94%);filter:drop-shadow(0 24px 45px rgba(0,0,0,.34));transform:scale(.985);animation:heroLogoIn .58s ease-out both}
+    @keyframes heroLogoIn{from{opacity:0;transform:scale(.955) translateY(8px)}to{opacity:1;transform:scale(.985) translateY(0)}}
+    .hero-brand-note{position:absolute;z-index:3;right:4%;bottom:12%;padding:10px 14px;border-radius:999px;background:rgba(250,245,236,.08);border:1px solid rgba(250,245,236,.16);color:#f5f0e8;font-size:12px;font-weight:700;letter-spacing:.04em}
+    .hero-copy h1{max-width:760px}
+    @media (max-width:768px){
+      .hero-brand-stage{min-height:340px;margin-top:8px}
+      .hero-brand-logo{width:min(390px,96%)}
+      .hero-brand-note{right:5%;bottom:5%;font-size:11px}
+    }
+    @media (prefers-reduced-motion:reduce){.hero-brand-logo{animation:none}}
+
+
+/* HERO — LOGO ENTRE HEADLINE E CTA */
+.hero-grid{grid-template-columns:1fr!important;max-width:980px;margin-inline:auto;text-align:center;gap:0!important}
+.hero-copy{padding:34px 0 28px!important}
+.hero-copy .eyebrow{margin-inline:auto}
+.hero-copy h1{max-width:900px!important;margin:24px auto 18px!important}
+.hero-copy p{max-width:760px!important;margin:0 auto 20px!important}
+.hero-inline-logo{position:relative;width:min(560px,88vw);margin:6px auto 18px;display:grid;place-items:center;isolation:isolate;padding:0;border-radius:0;background:none}
+.hero-inline-glow{display:none}
+.hero-inline-logo-img{width:min(500px,100%);height:auto;display:block;filter:drop-shadow(0 12px 24px rgba(0,0,0,.18));image-rendering:auto;backface-visibility:hidden;transform:translateZ(0);animation:heroInlineLogoIn .5s ease-out both}
+.hero-actions{justify-content:center}
+.hero-points{justify-content:center;margin-top:22px!important}
+@keyframes heroInlineLogoIn{from{opacity:0;transform:translateY(6px) scale(.975)}to{opacity:1;transform:translateY(0) scale(1)}}
+@media(max-width:768px){
+  .hero{padding-top:44px!important}
+  .hero-copy{padding-top:8px!important}
+  .hero-inline-logo{width:min(400px,92vw);margin:2px auto 16px}
+  .hero-copy h1{font-size:clamp(48px,16vw,70px);line-height:.9}
+}
+@media(prefers-reduced-motion:reduce){.hero-inline-logo-img{animation:none}}
+
+/* Ajustes finais do Hero: headline mais compacta e logo acima do texto */
+.hero-copy{padding-top:10px!important}
+.hero-copy h1{font-size:clamp(58px,7.5vw,104px)!important;line-height:.92!important;margin:8px auto 10px!important;letter-spacing:-.045em}
+.hero-inline-logo{margin:0 auto 12px!important;width:min(460px,82vw)!important}
+.hero-copy>p{margin-top:0!important}
+@media(max-width:768px){
+  .hero-copy{padding-top:0!important}
+  .hero-copy h1{font-size:clamp(42px,13.2vw,60px)!important;line-height:.92!important;margin:4px auto 8px!important}
+  .hero-inline-logo{width:min(300px,78vw)!important;margin:2px auto 10px!important}
+}
+
+
+    /* VANTAGENS / PAGAMENTOS / FAQ */
+    .advantages-section{background:#202020;padding:86px 0;border-top:1px solid rgba(255,255,255,.06);border-bottom:1px solid rgba(255,255,255,.06)}
+    .advantages-head{max-width:780px;margin:0 auto 34px;text-align:center}
+    .advantages-head h2{font-size:clamp(36px,5vw,62px);line-height:.98;letter-spacing:-.04em;margin:10px 0 14px}
+    .advantages-head p{color:#cfcfcf;font-size:18px;line-height:1.6;margin:0 auto;max-width:690px}
+    .advantage-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:30px}
+    .advantage-card{padding:24px 20px;border-radius:24px;background:var(--beige);color:#262626;min-height:190px;display:flex;flex-direction:column;border:1px solid rgba(255,255,255,.08)}
+    .advantage-icon{width:46px;height:46px;border-radius:15px;display:grid;place-items:center;background:#262626;color:#fff;font-size:22px;margin-bottom:20px}
+    .advantage-card h3{font-size:22px;margin:0 0 9px;letter-spacing:-.02em}.advantage-card p{margin:0;color:#625e58;line-height:1.55;font-size:15.5px}
+    .payment-box{margin-top:18px;border-radius:26px;padding:24px 26px;background:rgba(255,255,255,.045);border:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:22px}
+    .payment-copy strong{display:block;font-size:22px;margin-bottom:5px}.payment-copy span{color:#cfcfcf}.payment-methods{display:flex;flex-wrap:wrap;gap:9px;justify-content:flex-end}
+    .payment-pill{padding:10px 15px;border-radius:999px;background:var(--beige);color:#262626;font-weight:800;font-size:14px;white-space:nowrap}
+    .advantage-cta{text-align:center;margin-top:28px}.advantage-cta .btn{min-width:280px}
+    .faq-section{background:var(--beige);color:#262626;padding:86px 0}.faq-wrap{max-width:900px;margin:0 auto}
+    .faq-head{text-align:center;margin-bottom:30px}.faq-head .kicker{color:#69635c}.faq-head h2{font-size:clamp(36px,5vw,58px);line-height:1;letter-spacing:-.04em;margin:10px 0 12px}.faq-head p{color:#625e58;font-size:17px}
+    .faq-list{display:grid;gap:10px}.faq-item{border:1px solid rgba(38,38,38,.12);background:rgba(255,255,255,.42);border-radius:20px;overflow:hidden}
+    .faq-item summary{list-style:none;cursor:pointer;padding:20px 22px;font-weight:800;font-size:17px;display:flex;align-items:center;justify-content:space-between;gap:18px}.faq-item summary::-webkit-details-marker{display:none}.faq-item summary::after{content:'+';font-size:26px;font-weight:500;line-height:1}.faq-item[open] summary::after{content:'−'}
+    .faq-answer{padding:0 22px 20px;color:#625e58;line-height:1.6;font-size:16px}.faq-cta{margin-top:24px;padding:24px;border-radius:24px;background:#262626;color:#fff;display:flex;justify-content:space-between;align-items:center;gap:20px}.faq-cta strong{display:block;font-size:21px;margin-bottom:4px}.faq-cta span{color:#cfcfcf}.faq-cta .btn{flex:0 0 auto}
+    @media(max-width:900px){.advantage-grid{grid-template-columns:repeat(2,1fr)}.payment-box{align-items:flex-start;flex-direction:column}.payment-methods{justify-content:flex-start}}
+    @media(max-width:600px){.advantages-section,.faq-section{padding:62px 0}.advantages-head,.faq-head{text-align:left}.advantage-grid{grid-template-columns:1fr}.advantage-card{min-height:0}.payment-box{padding:20px}.payment-methods{gap:7px}.payment-pill{font-size:13px;padding:9px 12px}.advantage-cta .btn{width:100%;min-width:0}.faq-item summary{padding:18px;font-size:16px}.faq-answer{padding:0 18px 18px;font-size:15px}.faq-cta{align-items:flex-start;flex-direction:column;padding:20px}.faq-cta .btn{width:100%}}
+
+
+    /* Ajuste específico: ícone de Eletrônicos sem achatamento */
+    .cat-eletronicos .cat-icon img{
+      width:auto !important;
+      height:auto !important;
+      max-width:78% !important;
+      max-height:78% !important;
+      object-fit:contain !important;
+      aspect-ratio:auto !important;
+      display:block;
+      margin:auto;
+    }
+    @media (max-width:768px){
+      .cat-eletronicos .cat-icon img{
+        max-width:74% !important;
+        max-height:74% !important;
+      }
+    }
+
+</style>
+<script id="local-business-schema" type="application/ld+json">{"@context":"https://schema.org","@type":"Store","name":"Mundo Criativo","description":"Loja familiar em Santa Luzia, MG, com presentes, brinquedos, bijuterias, perfumaria, roupas masculinas, femininas e infantis, roupas de cama, papelaria, eletrônicos e produtos para o lar.","telephone":"+55 31 98963-0087","address":{"@type":"PostalAddress","addressLocality":"Santa Luzia","addressRegion":"MG","addressCountry":"BR"},"areaServed":{"@type":"City","name":"Santa Luzia"},"sameAs":["https://www.instagram.com/mundocriativo_oficiall","https://www.tiktok.com/@mundo_criativooficial","https://br.pinterest.com/mundocriativooficiall/"],"hasMap":"https://maps.app.goo.gl/sVd2ghnXdt7pekH78","openingHours":["Mo-Sa 09:00-19:30","Su 09:00-12:00"],"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"09:00","closes":"19:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Sunday","opens":"09:00","closes":"12:00"}]}</script><link href="assets/theme.css?v=20261024-brand" rel="stylesheet"/>
+</head>
+<body>
+<!--
+==============================================================
+  HEADER / NAVEGAÇÃO
+==============================================================
+--><header>
+<div class="container nav">
+<a aria-label="Mundo Criativo - início" class="brand" href="#inicio">
+<img alt="Logo Mundo Criativo" src="assets/image-01.png"/>
+<span class="brand-copy">
+<strong class="script">Mundo Criativo</strong>
+<span>Presentes, papelaria e muito mais</span>
+</span>
+</a>
+<nav class="nav-links" id="navLinks">
+<a href="#inicio">Início</a>
+<a href="#destaques">Destaques</a>
+<a href="#loja">A loja</a>
+<a href="#avaliacoes">Avaliações</a>
+<a href="#vantagens">Vantagens</a>
+<a href="#duvidas">Dúvidas frequentes</a>
+<a href="#instagram">Instagram</a>
+</nav>
+<div class="nav-actions">
+<a class="btn btn-whatsapp whatsapp-link" data-message="Olá! Vim pelo site da Mundo Criativo e gostaria de saber mais sobre os produtos da loja." href="https://wa.me/5531989630087?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Mundo%20Criativo%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20produtos%20da%20loja." rel="noopener" target="_blank"><span aria-hidden="true" class="brand-mark brand-mark-wa"><svg role="img" viewbox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M16.02 3.2C9 3.2 3.3 8.9 3.3 15.92c0 2.24.58 4.43 1.69 6.36L3.2 28.8l6.68-1.74a12.72 12.72 0 0 0 6.1 1.55h.01c7.01 0 12.71-5.71 12.71-12.72 0-3.4-1.32-6.6-3.73-9.01A12.6 12.6 0 0 0 16.02 3.2Zm0 23.26h-.01a10.54 10.54 0 0 1-5.38-1.47l-.38-.22-3.96 1.03 1.06-3.86-.25-.4a10.56 10.56 0 0 1-1.62-5.62c0-5.82 4.73-10.56 10.55-10.56 2.82 0 5.47 1.1 7.46 3.09a10.47 10.47 0 0 1 3.09 7.47c0 5.82-4.74 10.55-10.56 10.55Zm5.79-7.89c-.32-.16-1.91-.94-2.2-1.05-.29-.11-.51-.16-.72.16-.21.32-.83 1.05-1.01 1.26-.19.21-.37.24-.69.08-.32-.16-1.34-.49-2.56-1.57-.95-.84-1.6-1.88-1.79-2.2-.19-.32-.02-.49.14-.65.15-.15.32-.37.48-.56.16-.19.21-.32.32-.53.11-.21.05-.4-.03-.56-.08-.16-.72-1.73-.99-2.38-.26-.62-.53-.54-.72-.55h-.61c-.21 0-.56.08-.85.4-.29.32-1.11 1.08-1.11 2.64 0 1.56 1.13 3.07 1.28 3.29.16.21 2.21 3.37 5.35 4.73.75.32 1.33.51 1.79.65.75.24 1.43.2 1.97.12.6-.09 1.91-.78 2.18-1.53.27-.75.27-1.4.19-1.53-.08-.13-.29-.21-.61-.37Z" fill="white"></path></svg></span><span>WhatsApp</span></a>
+<a class="btn btn-dark" href="https://www.instagram.com/mundocriativo_oficiall?utm_source=site" rel="noopener" target="_blank"><span aria-hidden="true" class="brand-mark brand-mark-ig"><svg role="img" viewbox="0 0 24 24"><rect fill="none" height="15.6" rx="4.4" stroke="#fff" stroke-width="1.9" width="15.6" x="4.2" y="4.2"></rect><circle cx="12" cy="12" fill="none" r="3.7" stroke="#fff" stroke-width="1.9"></circle><circle cx="17.1" cy="6.9" fill="#fff" r="1.05"></circle></svg></span><span>Instagram ↗</span></a>
+<button aria-label="Abrir menu" class="menu-btn" id="menuBtn">☰</button>
+</div>
+</div>
+</header>
+<main>
+<!--
+==============================================================
+  HERO / APRESENTAÇÃO PRINCIPAL
+==============================================================
+--><section class="hero" id="inicio">
+<div class="container hero-grid">
+<div class="hero-copy reveal">
+<h1>ATIVE SUA<br/>CRIATIVIDADE</h1>
+<div aria-label="Logo Mundo Criativo" class="hero-inline-logo"><div aria-hidden="true" class="hero-inline-glow"></div>
+<p>Produtos criativos para o dia a dia, presentes especiais, papelaria, roupas, brinquedos, eletrônicos e muito mais. Onde cada visita é uma explosão de cores e alegria.</p><img alt="Mundo Criativo" class="hero-inline-logo-img" src="assets/image-02.png"/></div><div class="hero-actions">
+<a class="btn btn-whatsapp whatsapp-link" data-message="Olá! Vim pelo site da Mundo Criativo e gostaria de saber mais sobre os produtos da loja." href="https://wa.me/5531989630087?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Mundo%20Criativo%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20produtos%20da%20loja." rel="noopener" target="_blank"><span aria-hidden="true" class="brand-mark brand-mark-wa"><svg role="img" viewbox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M16.02 3.2C9 3.2 3.3 8.9 3.3 15.92c0 2.24.58 4.43 1.69 6.36L3.2 28.8l6.68-1.74a12.72 12.72 0 0 0 6.1 1.55h.01c7.01 0 12.71-5.71 12.71-12.72 0-3.4-1.32-6.6-3.73-9.01A12.6 12.6 0 0 0 16.02 3.2Zm0 23.26h-.01a10.54 10.54 0 0 1-5.38-1.47l-.38-.22-3.96 1.03 1.06-3.86-.25-.4a10.56 10.56 0 0 1-1.62-5.62c0-5.82 4.73-10.56 10.55-10.56 2.82 0 5.47 1.1 7.46 3.09a10.47 10.47 0 0 1 3.09 7.47c0 5.82-4.74 10.55-10.56 10.55Zm5.79-7.89c-.32-.16-1.91-.94-2.2-1.05-.29-.11-.51-.16-.72.16-.21.32-.83 1.05-1.01 1.26-.19.21-.37.24-.69.08-.32-.16-1.34-.49-2.56-1.57-.95-.84-1.6-1.88-1.79-2.2-.19-.32-.02-.49.14-.65.15-.15.32-.37.48-.56.16-.19.21-.32.32-.53.11-.21.05-.4-.03-.56-.08-.16-.72-1.73-.99-2.38-.26-.62-.53-.54-.72-.55h-.61c-.21 0-.56.08-.85.4-.29.32-1.11 1.08-1.11 2.64 0 1.56 1.13 3.07 1.28 3.29.16.21 2.21 3.37 5.35 4.73.75.32 1.33.51 1.79.65.75.24 1.43.2 1.97.12.6-.09 1.91-.78 2.18-1.53.27-.75.27-1.4.19-1.53-.08-.13-.29-.21-.61-.37Z" fill="white"></path></svg></span><span>Falar no WhatsApp</span></a>
+<a class="btn btn-outline" href="#destaques">Ver nossos produtos</a>
+</div>
+<div class="hero-points">
+<span class="chip">Atendimento pelo WhatsApp</span>
+<span class="chip">Variedade de produtos</span>
+<span class="chip">Novidades e promoções</span>
+</div>
+</div>
+
+</div>
+</section>
+<div class="category-strip">
+<div class="container strip-wrap reveal">
+<div class="strip-item"><img alt="" decoding="async" loading="lazy" src="assets/image-03.png"/><span>Roupas</span></div>
+<div class="strip-item"><img alt="" decoding="async" loading="lazy" src="assets/image-04.png"/><span>Eletrônicos</span></div>
+<div class="strip-item"><img alt="" decoding="async" loading="lazy" src="assets/image-05.png"/><span>Papelaria</span></div>
+<div class="strip-item"><img alt="" decoding="async" loading="lazy" src="assets/image-06.png"/><span>Promoções</span></div>
+<div class="strip-item"><img alt="" decoding="async" loading="lazy" src="assets/image-07.png"/><span>Brinquedos</span></div>
+<div class="strip-item"><img alt="" decoding="async" loading="lazy" src="assets/image-08.png"/><span>Avaliações</span></div>
+</div>
+</div>
+<!--
+==============================================================
+  CATEGORIAS / PRODUTOS
+==============================================================
+--><section class="highlights" id="destaques">
+<div class="container">
+<div class="section-head reveal">
+<div>
+<div class="kicker">Destaques da loja</div>
+<h2 class="section-title">Um mundo de possibilidades<br/>para você explorar.</h2>
+</div>
+<p class="section-copy">De papelaria a brinquedos, de roupas a eletrônicos: encontre produtos para o dia a dia, para presentear e para deixar cada momento mais criativo.</p>
+</div>
+<div class="highlight-layout">
+<div class="category-grid reveal">
+<article class="cat active" data-category="Roupas" data-color="var(--red)" data-icon="assets/image-03.png" data-message="Olá! Vim pelo site da Mundo Criativo e quero saber mais sobre a categoria Roupas." data-text="Estilo, novidades e opções para todos os momentos." style="--accent: var(--red)">
+<div class="cat-top">
+<div class="cat-icon"><img alt="Ícone roupas" loading="lazy" src="assets/image-03.png"/></div>
+<small>DESCUBRA</small>
+</div>
+<div>
+<h3>Roupas</h3>
+<p>Estilo, novidades e opções para todos os momentos.</p>
+</div>
+</article>
+<article class="cat cat-eletronicos" data-category="Eletrônicos" data-color="var(--blue)" data-icon="assets/image-04.png" data-message="Olá! Vim pelo site da Mundo Criativo e quero saber mais sobre a categoria Eletrônicos." data-text="Acessórios e produtos que deixam sua rotina mais prática e conectada." style="--accent: var(--blue)">
+<div class="cat-top">
+<div class="cat-icon"><img alt="Ícone eletrônicos" loading="lazy" src="assets/image-04.png"/></div>
+<small>TECNOLOGIA</small>
+</div>
+<div>
+<h3>Eletrônicos</h3>
+<p>Acessórios e produtos que deixam sua rotina mais prática e conectada.</p>
+</div>
+</article>
+<article class="cat" data-category="Papelaria" data-color="var(--green)" data-icon="assets/image-05.png" data-message="Olá! Vim pelo site da Mundo Criativo e quero conhecer os itens da categoria Papelaria." data-text="Cadernos, canetas, materiais e detalhes que dão vida às suas ideias." style="--accent: var(--green)">
+<div class="cat-top">
+<div class="cat-icon"><img alt="Ícone papelaria" loading="lazy" src="assets/image-05.png"/></div>
+<small>CRIE MAIS</small>
+</div>
+<div>
+<h3>Papelaria</h3>
+<p>Cadernos, canetas, materiais e detalhes que dão vida às suas ideias.</p>
+</div>
+</article>
+<article class="cat" data-category="Promoções" data-color="var(--yellow)" data-icon="assets/image-06.png" data-message="Olá! Vim pelo site da Mundo Criativo e quero saber quais promoções estão disponíveis." data-text="Ofertas especiais e oportunidades para você aproveitar." style="--accent: var(--yellow)">
+<div class="cat-top">
+<div class="cat-icon"><img alt="Ícone promoções" loading="lazy" src="assets/image-06.png"/></div>
+<small>APROVEITE</small>
+</div>
+<div>
+<h3>Promoções</h3>
+<p>Ofertas especiais e oportunidades para você aproveitar.</p>
+</div>
+</article>
+<article class="cat" data-category="Brinquedos" data-color="var(--purple)" data-icon="assets/image-07.png" data-message="Olá! Vim pelo site da Mundo Criativo e quero saber mais sobre a categoria Brinquedos." data-text="Diversão, criatividade e presentes para todas as idades." style="--accent: var(--purple)">
+<div class="cat-top">
+<div class="cat-icon"><img alt="Ícone brinquedos" loading="lazy" src="assets/image-07.png"/></div>
+<small>DIVERSÃO</small>
+</div>
+<div>
+<h3>Brinquedos</h3>
+<p>Diversão, criatividade e presentes para todas as idades.</p>
+</div>
+</article>
+<article class="cat" data-category="Avaliações" data-color="var(--orange)" data-icon="assets/image-08.png" data-message="Olá! Vim pelo site da Mundo Criativo e gostaria de saber mais sobre a loja e ver avaliações." data-text="Sua experiência ajuda outras pessoas a conhecerem a Mundo Criativo." style="--accent: var(--orange)">
+<div class="cat-top">
+<div class="cat-icon"><img alt="Ícone avaliações" loading="lazy" src="assets/image-08.png"/></div>
+<small>CONFIANÇA</small>
+</div>
+<div>
+<h3>Avaliações</h3>
+<p>Sua experiência ajuda outras pessoas a conhecerem a Mundo Criativo.</p>
+</div>
+</article>
+</div>
+<aside class="selection reveal" id="selection" style="--sel: var(--red)">
+<div>
+<div class="selection-head">
+<div>
+<span class="script">Explore</span>
+<h3 id="selTitle">Roupas</h3>
+</div>
+<span class="selection-icon-wrap" id="selectionIconWrap">
+<img alt="Ícone selecionado" id="selIcon" loading="lazy" src="assets/image-03.png"/>
+</span>
+</div>
+<p id="selText">Estilo, novidades e opções para todos os momentos.</p>
+<ul class="selection-list" id="selList">
+<li>Encontre opções para diferentes estilos e momentos.</li>
+<li>Fale diretamente com a nossa equipe pelo WhatsApp.</li>
+<li>Receba atendimento personalizado para escolher melhor.</li>
+</ul>
+</div>
+<div class="selection-cta">
+<a class="btn btn-whatsapp whatsapp-link" data-message="Olá! Vim pelo site da Mundo Criativo e quero saber mais sobre a categoria Roupas." href="https://wa.me/5531989630087?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Mundo%20Criativo%20e%20quero%20saber%20mais%20sobre%20a%20categoria%20Roupas." id="selectionWhatsapp" rel="noopener" target="_blank">Quero falar sobre essa categoria</a>
+<a class="btn btn-outline" href="#avaliacoes">Ver avaliações</a>
+</div>
+</aside>
+</div>
+</div>
+</section>
+
+<!-- ==============================================================
+  VANTAGENS E FORMAS DE PAGAMENTO
+============================================================== -->
+<section class="advantages-section" id="vantagens">
+<div class="container">
+<div class="advantages-head reveal"><div class="kicker">Por que escolher a Mundo Criativo?</div><h2>Mais facilidade para encontrar o que você precisa.</h2><p>Variedade, praticidade e um atendimento próximo para tornar sua compra mais simples, seja para você, sua casa ou para presentear.</p></div>
+<div class="advantage-grid reveal">
+<article class="advantage-card"><div class="advantage-icon">✦</div><h3>Variedade</h3><p>Opções para você, sua casa e toda a família, em diferentes categorias.</p></article>
+<article class="advantage-card"><div class="advantage-icon">✓</div><h3>Praticidade</h3><p>Encontre presentes, papelaria, roupas, brinquedos e muito mais em uma única loja.</p></article>
+<article class="advantage-card"><div class="advantage-icon">♡</div><h3>Atendimento próximo</h3><p>Nossa equipe ajuda você a encontrar o que procura e tirar dúvidas pelo WhatsApp.</p></article>
+<article class="advantage-card"><div class="advantage-icon">$</div><h3>Preços acessíveis</h3><p>Produtos para diferentes necessidades, ocasiões e momentos do dia a dia.</p></article>
+</div>
+<div class="payment-box reveal"><div class="payment-copy"><strong>Facilidade também na hora de pagar</strong><span>Escolha a forma de pagamento que funciona melhor para você.</span></div><div class="payment-methods" aria-label="Formas de pagamento aceitas"><span class="payment-pill">Pix</span><span class="payment-pill">Dinheiro</span><span class="payment-pill">Cartão de débito</span><span class="payment-pill">Cartão de crédito</span></div></div>
+<div class="advantage-cta reveal"><a class="btn btn-whatsapp whatsapp-link" data-message="Olá! Vim pelo site da Mundo Criativo e gostaria de saber mais sobre os produtos disponíveis." href="https://wa.me/5531989630087" rel="noopener" target="_blank">Falar com a equipe no WhatsApp</a></div>
+</div></section>
+
+<!--
+==============================================================
+  SOBRE A MUNDO CRIATIVO / FOTO DA LOJA
+==============================================================
+--><section class="about-store" id="loja">
+<img alt="" aria-hidden="true" class="about-watermark" decoding="async" loading="lazy" src="assets/image-01.png"/>
+<div class="container">
+<div class="about-grid">
+<div class="about-copy reveal">
+<div class="kicker">Mundo Criativo em Santa Luzia</div>
+<h2 class="section-title">Uma loja feita para você e toda a sua família.</h2>
+<p><strong>A Mundo Criativo é uma loja familiar em Santa Luzia, MG, há mais de três anos fazendo parte do dia a dia de nossos clientes.</strong></p>
+<p>Aqui você encontra presentes, brinquedos, bijuterias, perfumaria, roupas masculinas, femininas e infantis, roupas de cama, produtos para o lar e muito mais. Tudo em um só lugar.</p>
+<p>Trabalhamos com <strong>atendimento personalizado, variedade e preços acessíveis</strong>, buscando a cada dia evoluir nosso atendimento, ampliar nossas opções e tornar cada visita ainda mais especial.</p>
+<p><strong>Venha conhecer a Mundo Criativo e descubra uma loja cheia de cores, novidades e opções para você e sua família.</strong></p>
+<div class="about-stats">
+<div class="about-stat">+3 anos no mercado</div>
+<div class="about-stat">Loja familiar</div>
+<div class="about-stat">Atendimento personalizado</div>
+<div class="about-stat">Preços acessíveis</div>
+</div>
+<div class="about-actions">
+<a class="btn btn-whatsapp whatsapp-link" data-message="Olá! Vim pelo site da Mundo Criativo e gostaria de saber mais sobre os produtos da loja." href="https://wa.me/5531989630087?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Mundo%20Criativo%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20produtos%20da%20loja." rel="noopener" target="_blank"><span aria-hidden="true" class="brand-mark brand-mark-wa"><svg role="img" viewbox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M16.02 3.2C9 3.2 3.3 8.9 3.3 15.92c0 2.24.58 4.43 1.69 6.36L3.2 28.8l6.68-1.74a12.72 12.72 0 0 0 6.1 1.55h.01c7.01 0 12.71-5.71 12.71-12.72 0-3.4-1.32-6.6-3.73-9.01A12.6 12.6 0 0 0 16.02 3.2Zm0 23.26h-.01a10.54 10.54 0 0 1-5.38-1.47l-.38-.22-3.96 1.03 1.06-3.86-.25-.4a10.56 10.56 0 0 1-1.62-5.62c0-5.82 4.73-10.56 10.55-10.56 2.82 0 5.47 1.1 7.46 3.09a10.47 10.47 0 0 1 3.09 7.47c0 5.82-4.74 10.55-10.56 10.55Zm5.79-7.89c-.32-.16-1.91-.94-2.2-1.05-.29-.11-.51-.16-.72.16-.21.32-.83 1.05-1.01 1.26-.19.21-.37.24-.69.08-.32-.16-1.34-.49-2.56-1.57-.95-.84-1.6-1.88-1.79-2.2-.19-.32-.02-.49.14-.65.15-.15.32-.37.48-.56.16-.19.21-.32.32-.53.11-.21.05-.4-.03-.56-.08-.16-.72-1.73-.99-2.38-.26-.62-.53-.54-.72-.55h-.61c-.21 0-.56.08-.85.4-.29.32-1.11 1.08-1.11 2.64 0 1.56 1.13 3.07 1.28 3.29.16.21 2.21 3.37 5.35 4.73.75.32 1.33.51 1.79.65.75.24 1.43.2 1.97.12.6-.09 1.91-.78 2.18-1.53.27-.75.27-1.4.19-1.53-.08-.13-.29-.21-.61-.37Z" fill="white"></path></svg></span><span>Falar com a gente no WhatsApp</span></a>
+<a class="btn btn-map" href="https://maps.app.goo.gl/sVd2ghnXdt7pekH78" rel="noopener" target="_blank"><span aria-hidden="true" class="map-pin-icon"><svg role="img" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 21s7-6.13 7-12a7 7 0 1 0-14 0c0 5.87 7 12 7 12Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9"></path><circle cx="12" cy="9" fill="none" r="2.4" stroke="currentColor" stroke-width="1.9"></circle></svg></span><span>Onde nos encontrar</span></a>
+<a class="btn btn-dark" href="https://www.instagram.com/mundocriativo_oficiall?utm_source=site" rel="noopener" target="_blank"><span aria-hidden="true" class="brand-mark brand-mark-ig"><svg role="img" viewbox="0 0 24 24"><rect fill="none" height="15.6" rx="4.4" stroke="#fff" stroke-width="1.9" width="15.6" x="4.2" y="4.2"></rect><circle cx="12" cy="12" fill="none" r="3.7" stroke="#fff" stroke-width="1.9"></circle><circle cx="17.1" cy="6.9" fill="#fff" r="1.05"></circle></svg></span><span>Conhecer o Instagram ↗</span></a>
+</div>
+</div>
+<figure class="store-photo-card reveal">
+<img alt="Fachada da loja Mundo Criativo em Santa Luzia, Minas Gerais" loading="lazy" src="assets/image-09.jpg"/>
+<figcaption class="store-badge"><small>Nossa loja física</small><b>Santa Luzia · MG</b></figcaption>
+</figure>
+</div>
+</div>
+</section>
+<!--
+==============================================================
+  HORÁRIO DE FUNCIONAMENTO / COMO CHEGAR
+==============================================================
+--><section class="visit-section" id="visite-nos">
+<div class="container visit-shell">
+<div class="visit-copy reveal">
+<div class="kicker">Visite a Mundo Criativo</div>
+<h2>Planeje sua visita.</h2>
+<p>Estamos em Santa Luzia, MG. Confira nossos horários e abra a rota no Google Maps para chegar até a loja com facilidade.</p>
+<div class="visit-actions">
+<a class="btn btn-map" href="https://maps.app.goo.gl/sVd2ghnXdt7pekH78" rel="noopener" target="_blank"><span aria-hidden="true" class="map-pin-icon"><svg role="img" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 21s7-6.13 7-12a7 7 0 1 0-14 0c0 5.87 7 12 7 12Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9"></path><circle cx="12" cy="9" fill="none" r="2.4" stroke="currentColor" stroke-width="1.9"></circle></svg></span><span>Onde nos encontrar</span></a>
+<a class="btn btn-whatsapp whatsapp-link" data-message="Olá! Vim pelo site da Mundo Criativo e gostaria de confirmar o horário de funcionamento da loja." href="https://wa.me/5531989630087" rel="noopener" target="_blank"><span>Confirmar pelo WhatsApp</span></a>
+</div>
+</div>
+<div aria-label="Horário de funcionamento da Mundo Criativo" class="visit-card reveal">
+<div class="visit-card-head"><span aria-hidden="true" class="visit-icon"><svg role="img" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" fill="none" r="8.5" stroke="currentColor" stroke-width="1.7"></circle><path d="M12 7.5v5l3.2 2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"></path></svg></span><div><strong>Horário de funcionamento</strong></div></div>
+<div class="hours-row"><span class="hours-day">Segunda a sábado</span><span class="hours-time">09h às 19h30</span></div>
+<div class="hours-row"><span class="hours-day">Domingo</span><span class="hours-time">09h às 12h</span></div>
+<div class="visit-note">Em feriados, consulte a nossa equipe pelo WhatsApp antes da visita.</div>
+</div>
+</div>
+</section>
+<!--
+==============================================================
+  FAIXA INSTITUCIONAL / FRASE DA MARCA
+==============================================================
+--><section aria-label="Frase da Mundo Criativo" class="brand-quote">
+<img alt="" aria-hidden="true" class="brand-quote-bg" loading="lazy" src="assets/image-09.jpg"/>
+<div class="brand-quote-inner reveal">
+<p>Onde cada visita é uma explosão de cores e alegria.</p>
+<span>Mundo Criativo · Santa Luzia, MG</span>
+</div>
+</section><!--
+==============================================================
+  CTA / AVALIAÇÃO NO GOOGLE
+==============================================================
+--><section aria-label="Avalie a Mundo Criativo no Google" class="google-review-band">
+<div class="container">
+<div class="google-review-inner reveal">
+<div>
+<h2>Já conhece a Mundo Criativo?</h2>
+<p>Conte como foi sua experiência e ajude outras pessoas a conhecerem nossa loja.</p>
+<div aria-label="Avaliação por estrelas no Google" class="google-stars-row">
+<div aria-hidden="true" class="google-stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+<div class="google-stars-note">Sua opinião faz a diferença</div>
+</div>
+</div>
+<a class="btn btn-google" href="https://g.page/r/CR7fEZYd1xt9EBM/review" rel="noopener" target="_blank">★ Avaliar no Google</a>
+</div>
+</div>
+</section>
+<!--
+==============================================================
+  AVALIAÇÕES / PROVA SOCIAL
+==============================================================
+--><section class="reviews" id="avaliacoes">
+<div class="container">
+<div class="reviews-intro reveal">
+<div aria-label="5 estrelas" class="google-stars google-stars-large"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+<div class="kicker">Avaliações reais no Google</div>
+<h2>A experiência de quem já conhece a Mundo Criativo.</h2>
+<p>Atendimento, variedade e preço justo fazem parte do que nossos clientes destacam. Veja alguns comentários publicados no Google.</p>
+</div>
+<div aria-label="Comentários de clientes no Google" class="reviews-carousel reveal">
+<article class="testimonial-card">
+<div class="testimonial-head"><div class="review-avatar avatar-j">J</div><div><h3>Janaína Chagas Pereira dos Reis</h3><div class="testimonial-meta"><span aria-hidden="true" class="google-stars">★★★★★</span><span>31/12/2023</span></div></div></div>
+<p class="testimonial-text">“Adorei o atendimento, pessoas super educadas e ótimos produtos.”</p>
+</article>
+<article class="testimonial-card">
+<div class="testimonial-head"><div class="review-avatar avatar-r">R</div><div><h3>Rayssa Silva</h3><div class="testimonial-meta"><span aria-hidden="true" class="google-stars">★★★★★</span><span>30/12/2023</span></div></div></div>
+<p class="testimonial-text">“Se você procura preço justo e variedade é o lugar certo!!! 🥰”</p>
+</article>
+<article class="testimonial-card">
+<div class="testimonial-head"><div class="review-avatar avatar-l">L</div><div><h3>Luciana Alves de Oliveira</h3><div class="testimonial-meta"><span aria-hidden="true" class="google-stars">★★★★★</span><span>30/12/2023</span></div></div></div>
+<p class="testimonial-text">“Gostei muito da loja. Atendimento nota 10.”</p>
+</article>
+</div>
+<div class="reviews-footer reveal"><div><strong>Já comprou com a gente?</strong><span>Conte como foi sua experiência e ajude outras pessoas a conhecerem nossa loja.</span></div><div class="review-actions"><a class="btn btn-google" href="https://g.page/r/CR7fEZYd1xt9EBM/review" rel="noopener" target="_blank">★ Avaliar a Mundo Criativo no Google</a><a class="btn btn-whatsapp whatsapp-link" data-message="Olá! Vim pelo site da Mundo Criativo e gostaria de falar com a equipe." href="https://wa.me/5531989630087" rel="noopener" target="_blank"><span aria-hidden="true" class="brand-mark brand-mark-wa"><svg role="img" viewbox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M16.02 3.2C9 3.2 3.3 8.9 3.3 15.92c0 2.24.58 4.43 1.69 6.36L3.2 28.8l6.68-1.74a12.72 12.72 0 0 0 6.1 1.55h.01c7.01 0 12.71-5.71 12.71-12.72 0-3.4-1.32-6.6-3.73-9.01A12.6 12.6 0 0 0 16.02 3.2Zm0 23.26h-.01a10.54 10.54 0 0 1-5.38-1.47l-.38-.22-3.96 1.03 1.06-3.86-.25-.4a10.56 10.56 0 0 1-1.62-5.62c0-5.82 4.73-10.56 10.55-10.56 2.82 0 5.47 1.1 7.46 3.09a10.47 10.47 0 0 1 3.09 7.47c0 5.82-4.74 10.55-10.56 10.55Zm5.79-7.89c-.32-.16-1.91-.94-2.2-1.05-.29-.11-.51-.16-.72.16-.21.32-.83 1.05-1.01 1.26-.19.21-.37.24-.69.08-.32-.16-1.34-.49-2.56-1.57-.95-.84-1.6-1.88-1.79-2.2-.19-.32-.02-.49.14-.65.15-.15.32-.37.48-.56.16-.19.21-.32.32-.53.11-.21.05-.4-.03-.56-.08-.16-.72-1.73-.99-2.38-.26-.62-.53-.54-.72-.55h-.61c-.21 0-.56.08-.85.4-.29.32-1.11 1.08-1.11 2.64 0 1.56 1.13 3.07 1.28 3.29.16.21 2.21 3.37 5.35 4.73.75.32 1.33.51 1.79.65.75.24 1.43.2 1.97.12.6-.09 1.91-.78 2.18-1.53.27-.75.27-1.4.19-1.53-.08-.13-.29-.21-.61-.37Z" fill="white"></path></svg></span><span>Falar conosco</span></a></div></div>
+</div>
+</section>
+<!--
+==============================================================
+  INSTAGRAM / REDES SOCIAIS
+==============================================================
+--><section id="instagram">
+<div class="container">
+<div class="social-card reveal">
+<div class="social-copy">
+<div class="kicker">Nos acompanhe</div>
+<h2>Um pouco da Mundo Criativo todos os dias.</h2>
+<p>Novidades, produtos, promoções, ideias para presentes e um pouco do que acontece por aqui. Acompanhe nosso Instagram e descubra sempre algo novo.</p>
+<a class="btn btn-primary" href="https://www.instagram.com/mundocriativo_oficiall?utm_source=site" rel="noopener" target="_blank"><span aria-hidden="true" class="brand-mark brand-mark-ig"><svg role="img" viewbox="0 0 24 24"><rect fill="none" height="15.6" rx="4.4" stroke="#fff" stroke-width="1.9" width="15.6" x="4.2" y="4.2"></rect><circle cx="12" cy="12" fill="none" r="3.7" stroke="#fff" stroke-width="1.9"></circle><circle cx="17.1" cy="6.9" fill="#fff" r="1.05"></circle></svg></span><span>@mundocriativo_oficiall ↗</span></a>
+</div>
+<div class="social-visual">
+<div class="social-collage">
+<img alt="Fachada da Mundo Criativo em Santa Luzia" class="social-store-photo" loading="lazy" src="assets/image-09.jpg"/>
+<div class="social-logo-card"><img alt="Logo Mundo Criativo" loading="lazy" src="assets/image-01.png"/></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ==============================================================
+  DÚVIDAS FREQUENTES
+============================================================== -->
+<section class="faq-section" id="duvidas"><div class="container faq-wrap">
+<div class="faq-head reveal"><div class="kicker">Dúvidas frequentes</div><h2>Antes de visitar ou comprar.</h2><p>Algumas respostas rápidas para facilitar seu contato com a Mundo Criativo.</p></div>
+<div class="faq-list reveal">
+<details class="faq-item"><summary>Vocês fazem atendimento pelo WhatsApp?</summary><div class="faq-answer">Sim. Nossa equipe pode ajudar com produtos, disponibilidade e outras informações antes da sua visita.</div></details>
+<details class="faq-item"><summary>Onde fica a Mundo Criativo?</summary><div class="faq-answer">Estamos em Santa Luzia, MG. Você pode abrir nossa localização diretamente pelo botão “Onde nos encontrar” no Google Maps.</div></details>
+<details class="faq-item"><summary>Qual é o horário de funcionamento?</summary><div class="faq-answer">De segunda a sábado, das 09h às 19h30, e aos domingos, das 09h às 12h. Em feriados, consulte a nossa equipe pelo WhatsApp antes da visita.</div></details>
+<details class="faq-item"><summary>Quais produtos encontro na loja?</summary><div class="faq-answer">Você encontra papelaria, presentes, roupas, brinquedos, eletrônicos, perfumaria, bijuterias, produtos para o lar e muito mais.</div></details>
+<details class="faq-item"><summary>Como saber se um produto está disponível?</summary><div class="faq-answer">Fale com nossa equipe pelo WhatsApp e consulte a disponibilidade do item que você procura.</div></details>
+<details class="faq-item"><summary>Quais formas de pagamento são aceitas?</summary><div class="faq-answer">Aceitamos Pix, dinheiro, cartão de débito e cartão de crédito.</div></details>
+</div>
+<div class="faq-cta reveal"><div><strong>Ainda ficou com alguma dúvida?</strong><span>Fale diretamente com a nossa equipe.</span></div><a class="btn btn-whatsapp whatsapp-link" data-message="Olá! Vim pelo site da Mundo Criativo e tenho uma dúvida." href="https://wa.me/5531989630087" rel="noopener" target="_blank">Falar no WhatsApp</a></div>
+</div></section>
+
+</main>
+<!--
+==============================================================
+  RODAPÉ / CONTATO E SEO LOCAL
+==============================================================
+--><footer>
+<img alt="" aria-hidden="true" class="footer-watermark" loading="lazy" src="assets/image-01.png"/>
+<div class="container">
+<div class="footer-grid">
+<div class="footer-brand">
+<img alt="Logo Mundo Criativo" loading="lazy" src="assets/image-01.png"/>
+<div>
+<div class="script" style="font-size:40px;line-height:.9">Mundo Criativo</div>
+<p>Uma loja familiar em Santa Luzia, MG, com presentes, papelaria, roupas, brinquedos, perfumaria, bijuterias, produtos para o lar e muito mais. Há mais de três anos levando variedade, atendimento próximo e preços acessíveis para toda a família.</p>
+<div class="footer-tagline">Onde cada visita é uma explosão de cores e alegria.</div>
+</div>
+</div>
+<div class="footer-col">
+<h4>Explore</h4>
+<a href="#inicio">Início</a>
+<a href="#destaques">Nossos produtos</a>
+<a href="#loja">A Mundo Criativo</a>
+<a href="#avaliacoes">Avaliações</a>
+<a href="#instagram">Instagram</a>
+</div>
+<div class="footer-col">
+<h4>Fale com a gente</h4>
+<a class="whatsapp-link" data-message="Olá! Vim pelo site da Mundo Criativo e gostaria de saber mais sobre os produtos da loja." href="https://wa.me/5531989630087?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Mundo%20Criativo%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20produtos%20da%20loja." rel="noopener" target="_blank">WhatsApp · +55 31 98963-0087</a>
+<a href="https://www.instagram.com/mundocriativo_oficiall?utm_source=site" rel="noopener" target="_blank">Instagram · @mundocriativo_oficiall</a>
+<a href="https://www.tiktok.com/@mundo_criativooficial" rel="noopener" target="_blank">TikTok · @mundo_criativooficial</a>
+<a href="https://br.pinterest.com/mundocriativooficiall/" rel="noopener" target="_blank">Pinterest · @mundocriativooficiall</a>
+<a href="https://maps.app.goo.gl/sVd2ghnXdt7pekH78" rel="noopener" target="_blank">Onde nos encontrar no Google Maps</a>
+<a href="https://g.page/r/CR7fEZYd1xt9EBM/review" rel="noopener" target="_blank">★ Avaliar nossa loja no Google</a>
+<span>Santa Luzia · MG</span>
+</div>
+</div>
+<div class="copyright">
+<span>© 2026 Mundo Criativo. Todos os direitos reservados.</span>
+<span>Santa Luzia · Minas Gerais · Brasil</span>
+</div>
+</div>
+</footer>
+<div aria-label="Atalhos de contato" class="floating-social">
+<a aria-label="WhatsApp" class="social-fab wa whatsapp-link" data-message="Olá! Vim pelo site da Mundo Criativo e gostaria de saber mais sobre os produtos da loja." href="https://wa.me/5531989630087?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Mundo%20Criativo%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20produtos%20da%20loja." rel="noopener" target="_blank"><span aria-hidden="true" class="brand-mark brand-mark-wa"><svg role="img" viewbox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M16.02 3.2C9 3.2 3.3 8.9 3.3 15.92c0 2.24.58 4.43 1.69 6.36L3.2 28.8l6.68-1.74a12.72 12.72 0 0 0 6.1 1.55h.01c7.01 0 12.71-5.71 12.71-12.72 0-3.4-1.32-6.6-3.73-9.01A12.6 12.6 0 0 0 16.02 3.2Zm0 23.26h-.01a10.54 10.54 0 0 1-5.38-1.47l-.38-.22-3.96 1.03 1.06-3.86-.25-.4a10.56 10.56 0 0 1-1.62-5.62c0-5.82 4.73-10.56 10.55-10.56 2.82 0 5.47 1.1 7.46 3.09a10.47 10.47 0 0 1 3.09 7.47c0 5.82-4.74 10.55-10.56 10.55Zm5.79-7.89c-.32-.16-1.91-.94-2.2-1.05-.29-.11-.51-.16-.72.16-.21.32-.83 1.05-1.01 1.26-.19.21-.37.24-.69.08-.32-.16-1.34-.49-2.56-1.57-.95-.84-1.6-1.88-1.79-2.2-.19-.32-.02-.49.14-.65.15-.15.32-.37.48-.56.16-.19.21-.32.32-.53.11-.21.05-.4-.03-.56-.08-.16-.72-1.73-.99-2.38-.26-.62-.53-.54-.72-.55h-.61c-.21 0-.56.08-.85.4-.29.32-1.11 1.08-1.11 2.64 0 1.56 1.13 3.07 1.28 3.29.16.21 2.21 3.37 5.35 4.73.75.32 1.33.51 1.79.65.75.24 1.43.2 1.97.12.6-.09 1.91-.78 2.18-1.53.27-.75.27-1.4.19-1.53-.08-.13-.29-.21-.61-.37Z" fill="white"></path></svg></span></a>
+<a aria-label="Instagram" class="social-fab ig" href="https://www.instagram.com/mundocriativo_oficiall?utm_source=site" rel="noopener" target="_blank"><span aria-hidden="true" class="brand-mark brand-mark-ig"><svg role="img" viewbox="0 0 24 24"><rect fill="none" height="15.6" rx="4.4" stroke="#fff" stroke-width="1.9" width="15.6" x="4.2" y="4.2"></rect><circle cx="12" cy="12" fill="none" r="3.7" stroke="#fff" stroke-width="1.9"></circle><circle cx="17.1" cy="6.9" fill="#fff" r="1.05"></circle></svg></span></a>
+</div>
+<div class="toast" id="toast">Contato configurado com sucesso.</div>
+<!--
+==============================================================
+  INTERAÇÕES / WHATSAPP / CATEGORIAS
+==============================================================
+--><script>
+    /* Compatibilidade ampliada para Safari/iPhone: sem optional chaining,
+       arrow functions, spread ou template literals. */
+    var CONFIG = {
+      whatsappNumber: '5531989630087',
+      defaultMessage: 'Olá! Vim pelo site da Mundo Criativo e gostaria de saber mais sobre os produtos da loja.'
+    };
+
+    function qs(selector, root) {
+      return (root || document).querySelector(selector);
+    }
+    function qsa(selector, root) {
+      return (root || document).querySelectorAll(selector);
+    }
+    function forEachNode(list, callback) {
+      for (var i = 0; i < list.length; i++) callback(list[i], i);
+    }
+
+    var toast = qs('#toast');
+
+    function showToast(message) {
+      if (!toast) return;
+      toast.textContent = message;
+      toast.classList.add('show');
+      clearTimeout(window.__mcToastTimer);
+      window.__mcToastTimer = setTimeout(function () {
+        toast.classList.remove('show');
+      }, 3000);
+    }
+
+    function waUrl(message) {
+      var msg = message || CONFIG.defaultMessage;
+      return 'https://wa.me/' + CONFIG.whatsappNumber + '?text=' + encodeURIComponent(msg);
+    }
+
+    function applyWhatsAppLinks() {
+      forEachNode(qsa('.whatsapp-link'), function (link) {
+        var msg = link.getAttribute('data-message') || CONFIG.defaultMessage;
+        link.setAttribute('href', waUrl(msg));
+        link.setAttribute('target', '_blank');
+        link.setAttribute('rel', 'noopener');
+      });
+    }
+
+    applyWhatsAppLinks();
+
+    forEachNode(qsa('.whatsapp-link'), function (link) {
+      link.addEventListener('click', function () {
+        showToast('Abrindo o WhatsApp com a mensagem pronta.');
+      }, false);
+    });
+
+    var menuBtn = qs('#menuBtn');
+    var navLinks = qs('#navLinks');
+    if (menuBtn && navLinks) {
+      menuBtn.addEventListener('click', function () {
+        navLinks.classList.toggle('open');
+      }, false);
+    }
+    forEachNode(qsa('#navLinks a'), function (link) {
+      link.addEventListener('click', function () {
+        if (navLinks) navLinks.classList.remove('open');
+      }, false);
+    });
+
+    var bullets = {
+      'Roupas': [
+        'Opções para diferentes estilos e momentos.',
+        'Atendimento personalizado para ajudar na escolha.',
+        'Consulte novidades diretamente pelo WhatsApp.'
+      ],
+      'Eletrônicos': [
+        'Acessórios e itens para facilitar sua rotina.',
+        'Consulte disponibilidade e novidades com a equipe.',
+        'Atendimento rápido pelo WhatsApp.'
+      ],
+      'Papelaria': [
+        'Materiais para estudar, organizar, criar e presentear.',
+        'Cadernos, canetas, lápis e muito mais.',
+        'Fale com a equipe para encontrar o que procura.'
+      ],
+      'Promoções': [
+        'Confira oportunidades e ofertas disponíveis.',
+        'Pergunte sobre as promoções atuais da loja.',
+        'Aproveite enquanto houver disponibilidade.'
+      ],
+      'Brinquedos': [
+        'Presentes e diversão para diferentes idades.',
+        'Opções para estimular criatividade e imaginação.',
+        'Peça sugestões diretamente à nossa equipe.'
+      ],
+      'Avaliações': [
+        'Sua opinião ajuda nossa loja a melhorar todos os dias.',
+        'Conheça nossa seção de avaliações.',
+        'Você também pode avaliar a Mundo Criativo no Google.'
+      ]
+    };
+
+    var selection = qs('#selection');
+    var selectionTitle = qs('#selTitle');
+    var selectionText = qs('#selText');
+    var selectionIcon = qs('#selIcon');
+    var selectionList = qs('#selList');
+    var selectionWhatsapp = qs('#selectionWhatsapp');
+
+    function scrollToSelection() {
+      if (!selection) return;
+      setTimeout(function () {
+        try {
+          selection.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        } catch (e) {
+          selection.scrollIntoView(true);
+        }
+      }, 80);
+    }
+
+    forEachNode(qsa('.cat'), function (card) {
+      card.addEventListener('click', function () {
+        forEachNode(qsa('.cat'), function (c) { c.classList.remove('active'); });
+        card.classList.add('active');
+
+        var category = card.getAttribute('data-category') || '';
+        var message = card.getAttribute('data-message') || CONFIG.defaultMessage;
+        var color = card.getAttribute('data-color') || '#ff5b5b';
+        var icon = card.getAttribute('data-icon') || '';
+        var text = card.getAttribute('data-text') || '';
+
+        if (selection) selection.style.setProperty('--sel', color);
+        if (selectionTitle) selectionTitle.textContent = category;
+        if (selectionText) selectionText.textContent = text;
+        if (selectionIcon && icon) {
+          selectionIcon.src = icon;
+          selectionIcon.alt = 'Ícone ' + category;
+          selectionIcon.classList.remove('icon-jump');
+          void selectionIcon.offsetWidth;
+          selectionIcon.classList.add('icon-jump');
+        }
+        if (selectionWhatsapp) {
+          selectionWhatsapp.setAttribute('data-message', message);
+          selectionWhatsapp.setAttribute('href', waUrl(message));
+        }
+        if (selectionList) {
+          var items = bullets[category] || [];
+          var html = '';
+          for (var i = 0; i < items.length; i++) html += '<li>' + items[i] + '</li>';
+          selectionList.innerHTML = html;
+        }
+
+        scrollToSelection();
+      }, false);
+    });
+
+
+    function setupCategoryMarquee() {
+      var wrap = qs('.strip-wrap');
+      if (!wrap) return;
+      var items = qsa('.strip-item', wrap);
+      if (!items || items.length === 0) return;
+
+      forEachNode(items, function (item) {
+        var label = qs('span', item);
+        if (label && !item.getAttribute('data-category')) {
+          item.setAttribute('data-category', label.textContent.replace(/^\s+|\s+$/g, ''));
+        }
+      });
+
+      var original = wrap.innerHTML;
+      var track = document.createElement('div');
+      var setOne = document.createElement('div');
+      var setTwo = document.createElement('div');
+
+      track.className = 'strip-track';
+      setOne.className = 'strip-set';
+      setTwo.className = 'strip-set';
+      setTwo.setAttribute('aria-hidden', 'true');
+      setOne.innerHTML = original;
+      setTwo.innerHTML = original;
+      track.appendChild(setOne);
+      track.appendChild(setTwo);
+
+      wrap.innerHTML = '';
+      wrap.appendChild(track);
+      if (wrap.className.indexOf('marquee-ready') === -1) wrap.className += ' marquee-ready';
+
+      var clickable = qsa('.strip-item', track);
+      forEachNode(clickable, function (item) {
+        item.addEventListener('click', function () {
+          var category = item.getAttribute('data-category') || '';
+          var cards = qsa('.cat');
+          forEachNode(cards, function (card) {
+            if ((card.getAttribute('data-category') || '') === category) {
+              try { card.click(); } catch (e) {}
+            }
+          });
+        }, false);
+      });
+
+      /* Pausa somente enquanto o usuário interage com a faixa. */
+      wrap.addEventListener('pointerdown', function () {
+        track.style.animationPlayState = 'paused';
+      }, false);
+      wrap.addEventListener('pointerup', function () {
+        track.style.animationPlayState = 'running';
+      }, false);
+      wrap.addEventListener('pointercancel', function () {
+        track.style.animationPlayState = 'running';
+      }, false);
+    }
+
+    setupCategoryMarquee();
+
+    /* Animação é opcional. Se o iPhone não suportar IntersectionObserver,
+       todo o conteúdo continua visível normalmente. */
+    if ('IntersectionObserver' in window) {
+      document.documentElement.classList.add('motion-ready');
+      var io = new IntersectionObserver(function (entries) {
+        for (var i = 0; i < entries.length; i++) {
+          if (entries[i].isIntersecting) entries[i].target.classList.add('visible');
+        }
+      }, { threshold: 0.14 });
+      forEachNode(qsa('.reveal'), function (el) { io.observe(el); });
+    }
+  </script>
+</body>
+</html>
