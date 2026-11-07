@@ -28,3 +28,15 @@ Atualização da fachada sem zoom:
 - Enquadramento integral no banner com object-fit: contain.
 - Fundo discreto com desfoque apenas nas faixas laterais, para não deixar áreas vazias.
 - Altura do banner ajustada também para telas menores.
+
+
+Melhorias de acessibilidade, desempenho e SEO — 07/11/2026:
+- Menu com aria-expanded, Escape e navegação de foco.
+- Avaliações acessíveis por foco e setas; nomes dos cartões e contraste corrigidos.
+- Imagens responsivas WebP com dimensões, logo menor e favicon.
+- CSS e JavaScript legíveis em assets/base.css, assets/mundo-identidade.css e assets/app.js.
+- Produção usa assets/site.min.css e assets/app.min.js (atualizar esses arquivos ao alterar suas fontes).
+- URL oficial configurada: https://www.mundocriativooficiall.com.br/
+- Endereço fornecido pelo responsável: R. Alto do Tanque, 1685 - Lj 01 - Nossa Sra. das Graças, Santa Luzia - MG, 33030-120.
+- Canonical, compartilhamento e dados Store usam a URL oficial; dependem de o domínio estar conectado à hospedagem.
+- Não foram alterados DNS nem serviço de hospedagem.

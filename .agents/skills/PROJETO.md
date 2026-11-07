@@ -5,7 +5,7 @@
 - Repositório: `fabiohenriquebrant13-jpg/Mundo-Criativo`, branch remota `main`.
 - A versão recente fornecida pelo usuário está em `Mundo_Criativo_Versao_Celular_Corrigida.zip`.
 - Na raiz não existem atualmente `index.html` nem `Mundo-Criativo-Site-Institucional.html`; ambos estão na raiz interna do ZIP.
-- O pacote inclui `assets/mundo-identidade.css`, imagens de fachada e fontes locais com licenças. Há também `assets/` solto no repositório: não presuma que ele esteja sincronizado com o ZIP.
+- O pacote inclui as fontes legíveis `assets/base.css`, `assets/mundo-identidade.css` e `assets/app.js`. O HTML carrega `assets/site.min.css` (base + identidade compactadas) e `assets/app.min.js`; atualize os bundles ao editar as fontes. Imagens otimizadas WebP e fontes locais com licenças estão incluídas. Há também `assets/` solto no repositório: não presuma que ele esteja sincronizado com o ZIP.
 - Consulte o `README.txt` atual e o manual PDF. Atualize este contexto quando a organização mudar; não restaure arquivos apagados a partir do histórico sem pedido.
 
 ## Escolha da fonte e fluxo de trabalho
@@ -35,9 +35,11 @@ eletrônicos e utilidades. Preserve os dados atuais do pacote; não invente
 endereço, telefone, horários, preços ou avaliações. Confira destinos sem enviar
 mensagens de WhatsApp, ligações ou formulários.
 
-URL anteriormente usada: https://fabiohenriquebrant13-jpg.github.io/Mundo-Criativo/.
-Isso não comprova publicação ou configuração atual: verifique antes de afirmar
-que está online ou definir metadados absolutos para uma implantação diferente.
+URL oficial confirmada pelo usuário em 07/11/2026: https://www.mundocriativooficiall.com.br/.
+Canonical, compartilhamento e schema Store do pacote usam esse endereço.
+Endereço confirmado: R. Alto do Tanque, 1685 - Lj 01 - Nossa Sra. das Graças, Santa Luzia - MG, 33030-120.
+Não foram alterados DNS nem hospedagem. A configuração dos arquivos não comprova
+que o domínio esteja conectado ou que o novo pacote já esteja publicado.
 
 ## Ferramentas, validação e avaliações
 
