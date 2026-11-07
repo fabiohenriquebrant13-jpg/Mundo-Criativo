@@ -48,3 +48,7 @@ Correções de celular — logos e botões:
 - WhatsApp no cabeçalho móvel usa ícone com nome acessível, sem invadir o nome da loja.
 - Em celular/tablet até 768 px, atalhos sociais ficam no fluxo ao final da página, sem cobrir textos ou botões. Em desktop, atalhos flutuantes preservados.
 - Testes em 320, 360, 375, 390, 414, 768 e 1440 px; axe-core sem violações nas leituras estabilizadas de 375 e 1440 px.
+
+Correção do texto Nos acompanhe:
+- Removido recorte herdado de cantos arredondados no contêiner da seção Instagram.
+- Texto integral conferido em 375, 692 e 1440 px, sem alterar as imagens ou demais seções.
