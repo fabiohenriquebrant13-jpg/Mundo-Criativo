@@ -52,3 +52,9 @@ Correções de celular — logos e botões:
 Correção do texto Nos acompanhe:
 - Removido recorte herdado de cantos arredondados no contêiner da seção Instagram.
 - Texto integral conferido em 375, 692 e 1440 px, sem alterar as imagens ou demais seções.
+
+Avaliações reais adicionadas — consulta em 07/11/2026:
+- Viviane Silva supervisora pedagógica: 5 estrelas; comentário transcrito do Google Maps.
+- Lucilene Martins: 5 estrelas; comentário transcrito do Google Maps.
+- Perfil conferido pelo endereço e telefone da loja. O Google exibia 4,9/5 e 18 avaliações na consulta; as notas públicas podem mudar.
+- O site tem cinco comentários selecionados, não uma sincronização automática com o Google. As novas avaliações não exibem data exata porque o Google mostrou somente uma data relativa.
