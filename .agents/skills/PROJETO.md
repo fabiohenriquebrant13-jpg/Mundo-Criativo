@@ -41,7 +41,8 @@ que está online ou definir metadados absolutos para uma implantação diferente
 
 ## Ferramentas, validação e avaliações
 
-Não há testes ou ferramentas de auditoria versionados confirmados. Descubra
+Os scripts SEO agora estão em seo-audit/ e seo-audit-full/, com requisitos e uso
+documentados em [SEO.md](SEO.md). Não há suíte de navegador versionada confirmada. Descubra
 Python, Node, Playwright, Chromium, axe-core e Lighthouse no ambiente antes de
 prescrever comandos. Não presuma caminhos de outro projeto. Mantenha dependências
 de auditoria fora do pacote do site quando não forem dependências da aplicação.

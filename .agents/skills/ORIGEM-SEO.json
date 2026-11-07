@@ -1,0 +1,118 @@
+{
+  "data": "2026-11-07",
+  "origem_informada": "https://github.com/JeffLi1993/seo-audit-skill",
+  "licenca": "MIT, Copyright (c) 2026 Jeff",
+  "observacao": "Scripts, templates e licenças preservados. SKILL.md adaptados. REFERENCE.md completo recebeu nota de contexto. READMEs duplicados consolidados em SEO.md; requisitos duplicados consolidados.",
+  "anexos": [
+    {
+      "anexo": "report-template.html",
+      "id": "fc74820e8265e8a515d41940",
+      "sha256": "2c1fdbbdd68f735ddc15c370f678df73ddb5c3cb0eb152d0de44e6cc28e7d907"
+    },
+    {
+      "anexo": "REFERENCE.md",
+      "id": "0918820e82ecb18653f7cc71",
+      "sha256": "26c4b88470461f8ad97c9917cea63ef0d72ccf191272fdf3eca21b1ebd4ac534"
+    },
+    {
+      "anexo": "check-site.py",
+      "id": "d344820e9095f3638412d5be",
+      "sha256": "df630ecf87443f823a8232ec2b0c8339a713791bb649eea53c493ecf5ecf4538"
+    },
+    {
+      "anexo": "check-schema.py",
+      "id": "5f3c820ead31806299fb9825",
+      "sha256": "ff8067ef24d5bd6249732dfda185f03606b6642eedcc600d65bdeec5b17e92ab"
+    },
+    {
+      "anexo": "check-page.py",
+      "id": "2dd4820eae160c3d7d20358f",
+      "sha256": "db97f2326fd478a7a95c33a196a98ad8fde3ecec209c5cc1602d18c19ea55bba"
+    },
+    {
+      "anexo": "fetch-page.py",
+      "id": "7520820eb491d51767e8c68e",
+      "sha256": "be393d8c463298e35e6fd5da65598756f78499f984827ccb8da4ef8d0bfc6837"
+    },
+    {
+      "anexo": "LICENSE",
+      "id": "7528820e9b10ca388f23d6c8",
+      "sha256": "7ef0b316b4cbc991d3a88c012c2a1fbbf2672027f7cd27952768cf74637368c3"
+    },
+    {
+      "anexo": "SKILL.md",
+      "id": "b40c820eae70172575dbcd52",
+      "sha256": "a053bdd7e61bb775dc851af418c6ad7615aece4cbad137465b315a3d25b4419d"
+    },
+    {
+      "anexo": "report-template.html",
+      "id": "6424820e8cd7b01d8ec98385",
+      "sha256": "a2710649c3029b5211f88232ac770481367d0ce9eef84fe2cb5526d2e3c27fd8"
+    },
+    {
+      "anexo": "REFERENCE.md",
+      "id": "3bac820ea5ee997abbb754e0",
+      "sha256": "63134cd8332ba5e2b6ccaac86ebca1176ffbd2df90947c30c7402f54067b8018"
+    },
+    {
+      "anexo": "fetch-page.py",
+      "id": "6078820e8c1518c4b81004a6",
+      "sha256": "be393d8c463298e35e6fd5da65598756f78499f984827ccb8da4ef8d0bfc6837"
+    },
+    {
+      "anexo": "check-social.py",
+      "id": "7be4820e9ec29356fea45047",
+      "sha256": "97479b523dbaf7d5a0065b410e11774d0a4ebfb4e1763efac22602792d00c6b1"
+    },
+    {
+      "anexo": "check-page.py",
+      "id": "d360820ebe8a0d570cc73d40",
+      "sha256": "db97f2326fd478a7a95c33a196a98ad8fde3ecec209c5cc1602d18c19ea55bba"
+    },
+    {
+      "anexo": "check-pagespeed.py",
+      "id": "04fc820eb762cef10c0403d9",
+      "sha256": "950030d425e2cd295f2f42689d7dc16ae980211f0e518d7cd5fdaf1f186a0b13"
+    },
+    {
+      "anexo": "check-schema.py",
+      "id": "8b94820e93bc2ff9ab3e28b1",
+      "sha256": "d41fc4966fdb7ee7e4d6317a5418a46afe2062a9e0186514a461e2ff83e4f35f"
+    },
+    {
+      "anexo": "check-site.py",
+      "id": "2610820eb2c2218cfe3627b4",
+      "sha256": "1ed7997975e7a37c8d97cd6c4f3ac9de90f148535afce1ab3cacb5e899858ba4"
+    },
+    {
+      "anexo": "LICENSE",
+      "id": "4688820ebf71a19daeab7e66",
+      "sha256": "7ef0b316b4cbc991d3a88c012c2a1fbbf2672027f7cd27952768cf74637368c3"
+    },
+    {
+      "anexo": "SKILL.md",
+      "id": "1eac820ebe08565d4a9f469a",
+      "sha256": "e43fb46e388a058e820a5af837681839dcc808eaf347d20ed402012cbe2d5525"
+    },
+    {
+      "anexo": "README.md",
+      "id": "3dec820e8fe962095e88ab82",
+      "sha256": "02405b1f4fed5936275082ab87e7b6afef7d23064568b4e4d1108dbfcf664a51"
+    },
+    {
+      "anexo": "requirements-seo-audit.txt",
+      "id": "ff90820e827a01ec46651159",
+      "sha256": "ba47fed21ee3432c42d6db6c7de90dc1c47aad05f66b0bfba3f6a9a77b09c762"
+    },
+    {
+      "anexo": "requirements-seo-audit.txt",
+      "id": "f780820e902ca645d799ef6c",
+      "sha256": "ba47fed21ee3432c42d6db6c7de90dc1c47aad05f66b0bfba3f6a9a77b09c762"
+    },
+    {
+      "anexo": "README.md",
+      "id": "6a5c820e9baae61c14d22528",
+      "sha256": "02405b1f4fed5936275082ab87e7b6afef7d23064568b4e4d1108dbfcf664a51"
+    }
+  ]
+}

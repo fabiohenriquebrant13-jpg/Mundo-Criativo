@@ -14,6 +14,11 @@ visual aprovado no README. Não restaure versões anteriores sem solicitação.
 - [melhorar-html](.agents/skills/melhorar-html/SKILL.md): rotina de diagnóstico,
   implementação e validação para HTML/CSS/JavaScript.
 
+- [seo-audit](.agents/skills/seo-audit/SKILL.md): auditoria SEO básica de uma página.
+- [seo-audit-full](.agents/skills/seo-audit-full/SKILL.md): auditoria avançada, com PageSpeed quando configurado.
+
+Leia [.agents/skills/SEO.md](.agents/skills/SEO.md) para instalar ferramentas e usar os scripts sem misturá-los com o pacote público.
+
 Instalar estas skills não autoriza alterar o visual, corrigir o site, extrair
 arquivos sobre a raiz, recompor ZIPs ou publicar. Siga o escopo e as autorizações
 da tarefa. Não inclua skills ou relatórios internos nos pacotes públicos.

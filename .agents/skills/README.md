@@ -21,3 +21,9 @@ Abra uma nova tarefa na branch que contém estes arquivos para que o cliente pos
 descobrir as skills. O reconhecimento automático depende do cliente; não é garantido
 que uma sessão já aberta atualize seu catálogo. As skills não instalam ferramentas,
 não são conteúdo do site e não fazem alterações só por estarem no repositório.
+
+## SEO
+
+Também estão disponíveis [seo-audit](seo-audit/SKILL.md) e
+[seo-audit-full](seo-audit-full/SKILL.md), com scripts, templates e licenças.
+Consulte [SEO.md](SEO.md) para instalação, exemplos, origem e limitações.
