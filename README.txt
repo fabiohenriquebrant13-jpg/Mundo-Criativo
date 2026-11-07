@@ -40,3 +40,11 @@ Melhorias de acessibilidade, desempenho e SEO — 07/11/2026:
 - Endereço fornecido pelo responsável: R. Alto do Tanque, 1685 - Lj 01 - Nossa Sra. das Graças, Santa Luzia - MG, 33030-120.
 - Canonical, compartilhamento e dados Store usam a URL oficial; dependem de o domínio estar conectado à hospedagem.
 - Não foram alterados DNS nem serviço de hospedagem.
+
+
+Correções de celular — logos e botões:
+- Logos do cabeçalho, rodapé e Instagram mantêm altura automática e proporção original.
+- Rodapé móvel com logo acima do texto; Instagram sem imagem sobreposta ao texto.
+- WhatsApp no cabeçalho móvel usa ícone com nome acessível, sem invadir o nome da loja.
+- Em celular/tablet até 768 px, atalhos sociais ficam no fluxo ao final da página, sem cobrir textos ou botões. Em desktop, atalhos flutuantes preservados.
+- Testes em 320, 360, 375, 390, 414, 768 e 1440 px; axe-core sem violações nas leituras estabilizadas de 375 e 1440 px.
